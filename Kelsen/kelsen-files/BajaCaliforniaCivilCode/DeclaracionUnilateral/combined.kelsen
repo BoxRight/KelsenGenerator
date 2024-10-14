@@ -1,0 +1,177 @@
+string ofrecer = "ofrece objetos en determinado precio";
+string sostener = "sostenga su ofrecimiento";
+string condicion = "llena determinada condición";
+string antescondicion = "aun no cumple la condición";
+string servicio = "desempeña cierto servicio";
+
+string pago = "podrá exigir el pago";
+string nopago = "no podrá exigir el pago";
+
+string norecompensa = "no podrá exigir la recompensa ofrecida";
+string recompensa = "da la recompensa ofrecida";
+
+string antesprestado = "aun no presta el servicio";
+string revocacion = "revoca su oferta, siempre que la revocación se haga con la misma publicidad que el ofrecimiento";
+string erogaciones = "haga erogaciones para prestar el servicio";
+string reembolso = "reembolse";
+
+string plazo = "señala el plazo para la ejecución de servicio";
+string revocacionplazo = "revoca su oferta, siempre que el plazo no venza";
+
+string primero = "desempeña el servicio primero";
+string simultaneo = "desempeña el servicio simultáneamente con otros";
+string proporcional = "dé la recompensa en parte proporcional";
+string divisible = "pueda dividir la recompensa";
+string nodivisible = "no pueda dividir la recompensa";
+string sorteo = "sortee la recompensa";
+
+string concurso = "ofrece objetos por medio de concurso";
+string designajuezconcurso = "designa a tercero como juez de concurso en la oferta";
+string decidequien = "reciba recompensa siempre que sea señalado";
+
+string beneficiario = "señala tercero como beneficiario frente";
+string pactocontrariobeneficiario = "no pacta en contrario respecto del tercero";
+string beneficiotercero = "beneficia al tercero frente";
+
+string nomanifiestaoferta = "no manifiesta voluntad de aprovechar oferta";
+string rechazaoferta = "rechaza la oferta";
+
+string oponerexcepciones = "oponer al tercero las excepciones hechas frente";
+
+
+subject OFERENTE = "Jesús Antonio Sesma","Belgrado 73", 6462, "jesus.sesma@hotmail.com";
+
+subject ACREEDOR = "Francisco Sesma Vazquez", "Sin nombre", 6462, "Sin correo";
+
+asset Ofrecer = Service, +, OFERENTE, ofrecer, ACREEDOR;
+asset Sostener = Service, +, OFERENTE, sostener, ACREEDOR;
+asset Condicion = Service, +, ACREEDOR, condicion, OFERENTE;
+asset Servicio = Service, +, ACREEDOR, servicio, OFERENTE;
+
+asset Pago = Service, +, ACREEDOR, pago, OFERENTE;
+asset NoPago = Service, -, ACREEDOR, nopago, OFERENTE;
+
+asset Recompensa = Service, +, OFERENTE, recompensa, ACREEDOR;
+asset NoRecompensa = Service, -, ACREEDOR, norecompensa, OFERENTE;
+
+asset AntesCondicion = Service, +, ACREEDOR, antescondicion, OFERENTE;
+asset Antes = Service, -, ACREEDOR, antesprestado, OFERENTE;
+asset Revocacion = Service, +, OFERENTE, revocacion, ACREEDOR;
+asset Erogaciones = Service, +, ACREEDOR, erogaciones, OFERENTE;
+asset Reembolso = Service, +, OFERENTE, reembolso, ACREEDOR;
+
+asset Plazo = Service, +, OFERENTE, plazo, ACREEDOR;
+asset RevocacionPlazo = Service, +, OFERENTE, revocacionplazo, ACREEDOR;
+
+asset Primero = Service, +, ACREEDOR, primero, OFERENTE;
+asset Simultaneo = Service, +, ACREEDOR, simultaneo, OFERENTE;
+asset Proporcional = Service, +, OFERENTE, proporcional, ACREEDOR;
+asset Sorteo = Service, +, OFERENTE, sorteo, ACREEDOR;
+asset Divisible = Service, +, OFERENTE, divisible, ACREEDOR;
+asset NoDivisible = Service, -, OFERENTE, nodivisible, ACREEDOR;
+asset Concurso = Service, +, OFERENTE, concurso, ACREEDOR;
+
+asset DesignaJuezConcurso = Service, +, OFERENTE, designajuezconcurso, ACREEDOR;
+asset DecideQuien = Service, +, ACREEDOR, decidequien, OFERENTE;
+
+asset Beneficiario = Service, +, OFERENTE, beneficiario, ACREEDOR;
+asset PactoContrarioBeneficiario = Service, +, OFERENTE, pactocontrariobeneficiario, ACREEDOR;
+asset BeneficioTercero = Service, +, OFERENTE, beneficiotercero, ACREEDOR;
+
+asset NoManifiestaOferta = Service, -, ACREEDOR, nomanifiestaoferta, OFERENTE;
+asset RechazaOferta = Service, +, ACREEDOR, rechazaoferta, OFERENTE;
+
+asset OponerExcepciones = Service, +, OFERENTE, oponerexcepciones, ACREEDOR;
+
+
+clause a = {
+    Ofrecer,
+    CR(Sostener)
+};
+
+clause b = {
+	Condicion,
+	CR(Sostener)
+};
+
+clause c = {
+	Servicio,
+	CR(Sostener)
+};
+
+clause d = {
+	NoPago AND NoRecompensa,
+	PVG(Servicio)
+};
+
+clause e = {
+	NoPago AND NoRecompensa,
+	PVG(Condicion)
+
+};
+
+clause f = {
+    Antes,
+    PVG(Revocacion)
+};
+
+clause g = {
+    AntesCondicion,
+    PVG(Revocacion)
+};
+
+clause h = {
+	Revocacion AND Erogaciones,
+	CR(Reembolso)
+};
+
+clause i = {
+	Plazo,
+	PR(RevocacionPlazo)
+
+};
+
+clause j = {
+	Simultaneo AND Divisible,
+	CR(Proporcional)
+};
+
+
+clause k = {
+	Simultaneo AND NoDivisible,
+	CR(Sorteo)
+};
+
+clause l = {
+	Concurso,
+	CR(Plazo)
+
+};
+
+clause m = {
+	Concurso AND DesignaJuezConcurso,
+	CR(DecideQuien)
+};
+
+clause n = {
+	Beneficiario AND PactoContrarioBeneficiario,
+	CR(BeneficioTercero)
+
+};
+
+clause o = {
+	NoManifiestaOferta,
+	PVG(Revocacion)
+
+};
+
+clause p = {
+	RechazaOferta,
+	PVG(Revocacion)
+};
+
+clause q = {
+	Beneficiario AND PactoContrarioBeneficiario,
+	PVG(OponerExcepciones)
+};
+

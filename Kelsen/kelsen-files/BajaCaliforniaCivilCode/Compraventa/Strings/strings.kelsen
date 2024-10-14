@@ -1,0 +1,125 @@
+string comprador = "ser comprador frente";
+string vendedor = "ser vendedor frente";
+
+string compraventa = "acuerde compraventa junto";
+
+string acordarcosa = "conviene sobre la cosa, incluso si no se entrega";
+string acordarprecio = "conviene sobre el precio, incluso si no se paga";
+
+string parcialendinero = "paga en su mayoría en dinero";
+string parcialencosas = "paga en su mayoría parte con valor de otra cosa";
+
+string preciodelugar = "acuerda el precio que corre en día o lugar determinados";
+string preciodetercero = "acuerda el precio que fije un tercero";
+
+string rechazocomun = "rechaza por común acuerdo junto";
+
+string tercernoseñala = "muestra que el tercero no puede señalar el precio";
+string contratonulo = "deja el contrato sin efecto frente";
+
+string noactioproforma = "no ejerce actio pro-forma";
+
+string precioarbitrio = "señala el precio a su solo arbitrio";
+
+string nopagoplazo = "falla en pagar en plazo convenido";
+string nopagoinmediato = "falla en pagar inmediatamente";
+string nofijaplazo = "no conviene en plazo de pago junto";
+string reditolegal = "pagar el rédito legal de interés";
+
+string cosaAjena = "vende cosa ajena";
+string dolo = "procede con dolo o mala fe frente";
+string revalidado = "queda revalidado si antes de la evicción adquiere la propiedad";
+
+string cosaLitigiosa = "vende cosa o derechos litigiosos";
+string noDeclaraLitigio = "no declara la circunstancia de hallarse la cosa en litigio";
+string eviccionLitigio = "es responsable de los daños y perjuicios si sufre la evicción";
+string bienesEspecificos = "vende bienes de menores de edad, incapacitados, propiedad pública, empeñados o hipotecados";
+string requisitosLegales = "no observa los requisitos exigidos por la ley para que la venta sea perfecta frente";
+
+string compraBienesRaices = "compra bienes raíces";
+string compraJuicios = "compra bienes que son objeto de los juicios";
+string cesionDerechos = "es cesionario de derechos sobre bienes en juicio";
+string ventaHerencia = "vende o cede acciones hereditarias";
+string patriaPotestad = "vende bienes a sus padres";
+string ventaIndivisa = "vende su parte indivisa";
+
+
+string administradorBienes = "compra bienes de cuya venta o administración se halla encargado";
+
+string nopagarPrecio = "no paga el precio de la cosa en el tiempo, lugar y forma convenidos";
+string nopagarDondeEntrega = "no paga en el tiempo y lugar en que se entregue la cosa";
+string depositoTercero = "hará el depósito en manos de un tercero, en duda de quién entregará primero";
+string convenioIntereses = "paga el interés de la mora entre la entrega y pago si lo conviene frente";
+string produceFrutos = "tiene la cosa en producción de frutos";
+string noPagarInteresesPlazo = "no pagar intereses en ventas a plazo sin estipulación";
+
+string pagarInteresesPosterior = "pagar intereses si el plazo fue posterior al contrato";
+string suspenderPago = "suspender el pago si es perturbado en su posesión o derecho";
+string asegurarPosesion = "asegurar la posesión o dar fianza al comprador";
+string pagarIntereses = "pagar intereses por el tiempo entre la entrega y el pago";
+
+string compraAPlazos = "compra a plazos";
+string compraConEspera = "compra con espera del precio";
+string perturbacionPosesion = "ser perturbado en su posesión o derecho";
+string justoTemor = "tener justo temor de ser perturbado en su posesión o derecho";
+string convenioContrario = "tener convenio en contrario frente";
+
+string formalizarContrato = "formalizar el contrato de compraventa";
+string otorgarDocumentoPrivado = "otorgar en documento privado firmado por los contratantes ante dos testigos y ratificado ante Notario, Juez o Registro Público";
+string otorgarSinTestigos = "otorgar en documento privado sin requisitos de testigos y ratificación de firmas";
+string firmarPorRuego = "firmar a nombre y ruego de contratante que no sabe escribir, ante Notario";
+string formarDosOriginales = "formar dos originales del instrumento, uno para el comprador y otro para el Registro Público";
+string hacerEscrituraPublica = "hacer la venta en escritura pública ante Notario";
+string transmitirPorEndoso = "transmitir el dominio por endoso en el certificado de propiedad expedido y ratificado por el Registrador";
+string registrarVenta = "registrar la venta de bienes raíces en el Registro Público";
+
+string valorMenordiezmUMA = "valor del inmueble no mayor a 10,000 veces el valor diario de la Unidad de Medida y Actualización vigente";
+string valorMenorsietemUMA = "valor del inmueble no mayor a 7,000 veces el valor diario de la Unidad de Medida y Actualización vigente";
+string regularizacionTenencia = "programa de regularización de la tenencia de la tierra realizado por el Gobierno del Estado o municipios";
+string ventaContado = "venta al contado";
+string bienInscrito = "bien ya inscrito en el Registro";
+string valorMayordiezmUMA = "valor del inmueble excede de 10,000 veces el valor diario de la Unidad de Medida y Actualización vigente";
+
+
+string reserva = "la reserva de dominio";
+string notranscurraplazo = "no transcurra el plazo";
+string rescision = "la rescisión";
+string noreserva = "no se haya reservado el dominio";
+string venta = "la compraventa";
+string noentrega = "no ha entregado el bien";
+string arrendamiento = "será considerado arrendatario";
+string venderotro = "vender a otra persona";
+string entrega = "entregar";
+
+string eviccion = "prestar la evicción";
+string entregareal = "entrega real";
+string entregajuridica = "entrega jurídica";
+string entregavirtual = "entrega virtual";
+string consentimiento = "consentimiento";
+string gastosentrega = "los gastos de entrega";
+string gastostransporte = "los gastos de transporte";
+string nopagarprecio = "no pagar el precio";
+string estadooriginal = "en el estado original";
+string linderos = "entregar todo dentro de los linderos";
+string mora = "en mora de recibir";
+string alquiler = "el alquiler";
+string conservarbien = "conservar el bien";
+string prohibirventatotal = "prohibir la venta a terceros";
+string prohibirventageneral = "prohibir la venta general";
+string retroventa = "la retroventa";
+string promesaventa = "la promesa de venta de un inmueble";
+string derechotantomuebles = "pactar el derecho del tanto de 3 meses si se puede pagar";
+string derechotantoinmuebles = "pactar el derecho del tanto de 10 días si se puede pagar";
+
+string danos = "daños y perjuicios";
+string noNotificar = "no notificar al titular del derecho";
+string garantizar = "garantir la venta";
+string heredar = "heredar";
+string bienesfuturos = "bienes futuros";
+string contratoaleatorio = "un contrato aleatorio";
+string rescisionregistrada = "rescindir el contrato registrado";
+string noterabuena = "el tercero de buena fe";
+string restitucion = "la restitución";
+string pagoparcial = "pago parcial";
+string masoneroso = "más onerosas";
+

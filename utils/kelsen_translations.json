@@ -1,0 +1,1859 @@
+{
+  "global_records": {
+    "strings": {
+      "dominioCosaCierta": "\"debe la traslación de dominio de cosa cierta\";",
+      "cosaDistintaADebida": "\"no acepte cosa distinta a la debida, aún cuando sea de mayor valor\";",
+      "accesorios": "\"debe entregar la cosa cierta y sus accesorios\";",
+      "noPactoEnContrarioAccesorios": "\"no pacta no entregar los accesorios\";",
+      "traslacion": "\"adquiera el dominio de cosa cierta frente\";",
+      "enajenacionIncierta": "\"debe la enajenación de cosa indeterminada\";",
+      "noDeterminaCosaIncierta": "\"no determine la cosa indeterminada\";",
+      "medianaCalidad": "\"entregue la cosa de mediana calidad\";",
+      "deterioroDeudor": "\"pierda o deteriore la cosa a entregar\";",
+      "fuerzaMayor": "\"pierda la cosa a entregar por fuerza mayor o un tercero\";",
+      "daños": "\"el pago de daños y perjuicios\";",
+      "reduccion": "\"entrega de la cosa deteriorada con descuento\";",
+      "entregarAcciones": "\"entregue acciones para demandar al culpable\";",
+      "exclusionComercio": "\"sufre exclusión del comercio de la cosa frente\";",
+      "noRecobrar": "\"no puede recobrar la cosa por esta desaparecer\";",
+      "asumePerdida": "\"asume su pérdida frente\";",
+      "usoGoce": "\"debe la enajenación temporal del uso o goce de cosa cierta\";",
+      "pago": "\"podrá exigir el pago\";",
+      "comprador": "\"ser comprador frente\";",
+      "vendedor": "\"ser vendedor frente\";",
+      "compraventa": "\"acuerde compraventa junto\";",
+      "acordarCosa": "\"conviene sobre la cosa, incluso si no se entrega\";",
+      "acordarPrecio": "\"convenga sobre la cosa, incluso si no se paga\";",
+      "parcialEnCosas": "\"pague en su mayoría parte con valor de otra cosa\";",
+      "precioDeLugar": "\"acuerda el precio que corre en día o lugar determinados\";",
+      "precioDeTercero": "\"acuerda el precio que fije un tercero\";",
+      "rechazoComun": "\"rechaza por común acuerdo junto\";",
+      "terceroNoSeñala": "\"muestra que el tercero no puede señalar el precio\";",
+      "contratoNulo": "\"deja el contrato sin efecto frente\";",
+      "precioArbitrio": "\"señala el precio a su solo arbitrio\";",
+      "noPagoPlazo": "\"falla en pagar en plazo convenido\";",
+      "noPagoInmediato": "\"falle en pagar inmediatamente\";",
+      "noFijaPlazo": "\"no conviene en plazo de pago junto\";",
+      "reditoLegal": "\"pagar el rédito legal de interés\";",
+      "cosaAjena": "\"venda cosa ajena\";",
+      "dolo": "\"proceda con dolo o mala fe frente\";",
+      "revalidado": "\"quede revalidado si antes de la evicción adquiere la propiedad\";",
+      "cosaLitigiosa": "\"venda cosas o derechos litigiosos\";",
+      "noDeclaraLitigio": "\"no declare la circunstancia de hallarse la cosa en litigio\";",
+      "eviccionLitigio": "\"es responsable de los daños y perjuicios si sufre la evicción\";",
+      "bienesEspecificos": "\"venda bienes de menores de edad, incapacitados, de propiedad pública, empeñados o hipotecados\";",
+      "noRequisitosLegales": "\"no observa los requisitos exigidos por la Ley para que la venta sea perfecta frente\";",
+      "compraBienesRaices": "\"compre bienes raíces\";",
+      "compraJuicios": "\"compre bienes que son objeto de los juicios\";",
+      "ventaHerencia": "\"venda o ceda acciones hereditarias\";",
+      "patriaPotestad": "ejerce la patria potestad frente",
+      "ventaIndivisa": "\"vende su parte indivisa\";",
+      "administradorBienes": "\"compre bienes de cuya venta o administración se halla encargado\";",
+      "noPagarPrecio": "\"no pague el precio de la cosa en el tiempo, lugar y forma convenidos\";",
+      "noPagarDondeEntrega": "\"no paga en el tiempo y lugar en que se entregue la cosa\";",
+      "depositoTercero": "\"hará el depósito en manos de un tercero, en duda de quién entregará primero\";",
+      "convenioIntereses": "\"pague el interés de la mora entre la entrega y pago si lo conviene frente\";",
+      "pagarIntereses": "\"pague intereses por el tiempo entre la entrega y el pago\";",
+      "produceFrutos": "\"tiene la cosa en producción de frutos\";",
+      "noPagarInteresesPlazo": "\"no pague intereses en ventas a plazo sin estipulación\";",
+      "pagarInteresesPosterior": "\"pague intereses si el plazo fue posterior al contrato\";",
+      "suspenderPago": "\"suspenda el pago si es perturbado en su posesión o derecho\";",
+      "asegurarPosesion": "\"asegurar la posesión o dar fianza al comprador\";",
+      "compraAPlazos": "\"compre a plazos\";",
+      "compraConEspera": "\"compre con espera del precio\";",
+      "perturbacionPosesion": "\"ser perturbado en su posesión o derecho\";",
+      "justoTemor": "\"tener justo temor de ser perturbado en su posesión o derecho\";",
+      "convenioContrario": "\"tenga convenio en contrario frente\";",
+      "formalizarContrato": "\"formalice el contrato de compraventa\";",
+      "regularizacionTenencia": "\"programa de regularización de la tenencia de la tierra realizado por el Gobierno\";",
+      "otorgarDocumentoPrivado": "\"otorgar en documento privado firmado por los contratantes ante dos testigos y ratificado ante Notario, Juez o Registro Público\";",
+      "otorgarSinTestigos": "\"otorgar en documento privado sin requisitos de testigos y ratificación de firmas\";",
+      "valorMenorSieteMilUMA": "\"valor del inmueble no mayor a 7,000 veces el valor diario de la Unidad de Medida y Actualización vigente\";",
+      "ofrecer": "\"ofrecer objetos en determinado precio\";",
+      "sostener": "\"sostenga su ofrecimiento\";",
+      "condicion": "\"llene determinada condición\";",
+      "servicio": "\"desempeñe cierto servicio\";",
+      "noPago": "\"no podrá exigir el pago\";",
+      "noRecompensa": "\"no podrá exigir la recompensa ofrecida\";",
+      "recompensa": "\"da la recompensa ofrecida\";",
+      "antesCondicion": "\"aun no cumpla la condición\";",
+      "antesPrestado": "\"aun no preste el servicio\";",
+      "revocacion": "\"revoca su oferta, siempre que la revocación se haga con la misma publicidad que el ofrecimiento\";",
+      "erogaciones": "\"haga erogaciones para prestar el servicio\";",
+      "reembolse": "\"reembolse\";",
+      "plazo": "\"señale el plazo para la ejecución de servicio\";",
+      "revocacionPlazo": "\"revoque su oferta, siempre que el plazo no expire\";",
+      "simultaneo": "\"desempeña el servicio simultáneamente con otros\";",
+      "proporcional": "\"dé la recompensa en parte proporcional\";",
+      "divisible": "\"pueda dividir la recompensa\";",
+      "noDivisible": "\"no pueda dividir la recompensa\";",
+      "sorteo": "\"sortee la recompensa\";",
+      "concurso": "\"ofrece objetos por medio de concurso\";",
+      "designaJuezConcurso": "\"designe a tercero como juez de concurso en la oferta\";",
+      "decideQuien": "\"reciba recompensa siempre que sea señalado\";",
+      "beneficiario": "\"señala tercero como beneficiario frente\";",
+      "noPactoContrarioBeneficiario": "\"no pacta en contrario respecto de la estipulación a favor de tercero\";",
+      "beneficioTercero": "\"beneficia al tercero frente\";",
+      "noManifiestaOferta": "\"no manifieste voluntad de aprovechar oferta\";",
+      "rechazaOferta": "\"rechace la oferta\";",
+      "oponerExcepciones": "\"oponer al tercero las excepciones hechas frente\";",
+      "transferirPropiedadDinero": "transfiera la propiedad de una suma de dinero",
+      "devolverOtroTanto": "devuelva otro tanto de la misma especie y calidad",
+      "noFijePlazo": "no fije plazo para lo devolución de lo prestado",
+      "prestamoCereales": "preste cereales u otros productos del campo",
+      "restitucionSiguienteCosecha": "restituya el prestamo en la siguiente cosecha de mismos o semejantes productos",
+      "noSeñale": "no señale el lugar de restitución",
+      "entregarDondeEncuentre": "entregue la cosa prestada donde se encuentre",
+      "entregarDondeRecibio": "entregue la cosa donde se recibió",
+      "entregarDomicilioDeudor": "entregue la cosa en el domicilio del deudor",
+      "prestamoConsisteEfectos": "pacte el préstamo en efectos",
+      "prestamoConsisteDinero": "pacte el préstamo en dinero",
+      "pagoDosAnos": "paga dos años por adelantado",
+      "arrendamientoCincoAnos": "arrienda por más de cinco años",
+      "usar": "\\\"usar o gocer propiedad frente\\\";",
+      "pagarRenta": "\\\"pagar renta\\\";",
+      "arrendar": "\\\"arrienda propiedad\\\";",
+      "tutela": "\"el que ejerza la tutela\";",
+      "pagoDinero": "\"pague la renta en dinero\";",
+      "pagoEquivalente": "\"pague la renta en equivalente a dinero\";",
+      "": "",
+      "arrendamientoComercial": "\"celebre arrendamiento comercial frente\";",
+      "arrendamientoIndustrial": "\"celebre arrendamiento industrial frente\";",
+      "arrendamientoMasVeinteAnos": "\"celebre arrendamiento por más de veinte años\";",
+      "duracionIndeterminada": "\"celebre arrendamiento con duración indeterminada\";",
+      "terminacionArrendamientoVoluntad": "\"termine el arrendamiento a voluntad frente\";",
+      "persistirTrasMuerteArrendador": "\"persista el arrendamiento ante muerte del arrendador\";",
+      "persistirTrasMuerteArrendatario": "\"persista el arrendamiento ante muerte del arrendatario\";",
+      "ventaPropiedad": "\"venda a tercero la propiedad en arrendamiento frente\";",
+      "notificacionArrendatario": "\"notifique la venta\";",
+      "reparacionMenor": "\"repare la cosa\";",
+      "perdidaParcial": "\"pierda el uso total o parcial de la cosa\";",
+      "perdidaTotal": "\"pierda el uso total de la cosa\";",
+      "compraPropiedad": "\"compre la propiedad a enajenar si está al corriente en pago de renta\";",
+      "arrendamientoMenorUnAno": "\"celebre el arrendamiento por menos de un año\";",
+      "otorgar_credito": "\"otorga un crédito simple con garantía fiduciaria y prendaria por $1,600,000.00 M.N.\";",
+      "disponer_credito": "\"dispone del crédito otorgado\";",
+      "invertir_credito": "\"invierte el importe de las disposiciones del crédito en los fines señalados\";",
+      "registrar_contrato": "\"registra el contrato en el Registro Público correspondiente\";",
+      "comprobar_inversion": "\"entrega comprobantes de las inversiones realizadas en un plazo de 45 días naturales\";",
+      "ceder_credito": "\"cede, descuenta o negocia el crédito con otras entidades\";",
+      "pagar_intereses_ordinarios": "\"paga intereses ordinarios sobre el crédito\";",
+      "pagar_intereses_moratorios": "\"paga intereses moratorios sobre el crédito\";",
+      "calcular_intereses_ordinarios": "\"calcula intereses moratorios como 2.0 veces la tasa de intereses ordinarios\";"
+    },
+    "assets": {
+      "DominioCosaCierta": "asset DominioCosaCierta = Property, M, DEUDOR, dominioCosaCierta, ACREEDOR;",
+      "CosaDistintaADebida": "asset CosaDistintaADebida = Property, M, DEUDOR, cosaDistintaADebida, ACREEDOR;",
+      "Accesorios": "asset Accesorios = Service, +, DEUDOR, accesorios, ACREEDOR;",
+      "NoPactoEnContrarioAccesorios": "asset NoPactoEnContrarioAccesorios = Service, -, DEUDOR, noPactoEnContrarioAccesorios, DEUDOR;",
+      "Traslacion": "asset Traslacion = Property, M, ACREEDOR, traslacion, ACREEDOR;",
+      "EnajenacionIncierta": "asset EnajenacionIncierta = Property, M, ACREEDOR, enajenacionIncierta, DEUDOR;",
+      "NoDeterminaCosaIncierta": "asset NoDeterminaCosaIncierta = Service, -, DEUDOR, noDeterminaCosaIncierta, ACREEDOR;",
+      "MedianaCalidad": "asset MedianaCalidad = Service, +, DEUDOR, medianaCalidad, ACREEDOR;",
+      "DeterioroDeudor": "asset DeterioroDeudor = Service, +, DEUDOR, deterioroDeudor, ACREEDOR;",
+      "DeterioroAcreedor": "asset DeterioroAcreedor = Service, +, ACREEDOR, deterioroDeudor, DEUDOR;",
+      "FuerzaMayor": "asset FuerzaMayor = Service, +, DEUDOR, fuerzaMayor, ACREEDOR;",
+      "Daños": "asset Daños = Service, +, DEUDOR, daños, ACREEDOR;",
+      "Reduccion": "asset Reduccion = Service, +, DEUDOR, reduccion, ACREEDOR;",
+      "EntregarAcciones": "asset EntregarAcciones = Property, M, DEUDOR, entregarAcciones, ACREEDOR;",
+      "ExclusionComercio": "asset ExclusionComercio = Property, M, DEUDOR, exclusionComercio, ACREEDOR;",
+      "NoRecobrar": "asset NoRecobrar = Service, -, DEUDOR, noRecobrar, ACREEDOR;",
+      "AsumePerdidaDeudor": "asset AsumePerdidaDeudor = Service, +, DEUDOR, asumePerdida, ACREEDOR;",
+      "AsumePerdidaAcreedor": "asset AsumePerdidaAcreedor = Service, +, ACREEDOR, asumePerdida, DEUDOR;",
+      "UsoGoce": "asset UsoGoce = Property, M, DEUDOR, usoGoce, ACREEDOR;",
+      "Pago": "asset Pago = Service, +, ACREEDOR, pago, OFERENTE;",
+      "Comprador": "asset Comprador = Property, M, COMPRADOR, comprador, VENDEDOR;",
+      "Vendedor": "asset Vendedor = Property, M, VENDEDOR, vendedor, COMPRADOR;",
+      "Compraventa": "asset Compraventa = Service, +, VENDEDOR, compraventa, COMPRADOR;",
+      "AcordarCosa": "asset AcordarCosa = Service, +, VENDEDOR, acordarCosa, COMPRADOR;",
+      "AcordarPrecio": "asset AcordarPrecio = Service, +, VENDEDOR, acordarPrecio, COMPRADOR;",
+      "ParcialEnCosas": "asset ParcialEnCosas = Service, +, VENDEDOR, parcialEnCosas, COMPRADOR;",
+      "PrecioDeLugar": "asset PrecioDeLugar = Service, +, VENDEDOR, precioDeLugar, COMPRADOR;",
+      "PrecioDeTercero": "asset PrecioDeTercero = Service, +, VENDEDOR, precioDeTercero, COMPRADOR;",
+      "RechazoComun": "asset RechazoComun = Service, +, VENDEDOR, rechazoComun, COMPRADOR;",
+      "TerceroNoSeñala": "asset TerceroNoSeñala = Service, -, VENDEDOR, terceroNoSeñala, COMPRADOR;",
+      "ContratoNuloVendedor": "asset ContratoNuloVendedor = Property, M, VENDEDOR, contratoNulo, COMPRADOR;",
+      "ContratoNuloComprador": "asset ContratoNuloComprador = Property, M, COMPRADOR, contratoNulo, VENDEDOR;",
+      "PrecioArbitrioVendedor": "asset PrecioArbitrioVendedor = Service, +, VENDEDOR, precioArbitrio, COMPRADOR;",
+      "PrecioArbitrioComprador": "asset PrecioArbitrioComprador = Service, +, COMPRADOR, precioArbitrio, VENDEDOR;",
+      "NoPagoPlazo": "asset NoPagoPlazo = Service, -, VENDEDOR, noPagoPlazo, COMPRADOR;",
+      "NoPagoInmediato": "asset NoPagoInmediato = Service, -, COMPRADOR, noPagoInmediato, VENDEDOR;",
+      "NoFijaPlazo": "asset NoFijaPlazo = Service, -, VENDEDOR, noFijaPlazo, COMPRADOR;",
+      "ReditoLegal": "asset ReditoLegal = Service, +, COMPRADOR, reditoLegal, VENDEDOR;",
+      "CosaAjena": "asset CosaAjena = Property, M, VENDEDOR, cosaAjena, COMPRADOR;",
+      "Dolo": "asset Dolo = Service, +, VENDEDOR, dolo, COMPRADOR;",
+      "Revalidado": "asset Revalidado = Service, +, VENDEDOR, revalidado, COMPRADOR;",
+      "CosaLitigiosa": "asset CosaLitigiosa = Property, M, VENDEDOR, cosaLitigiosa, COMPRADOR;",
+      "NoDeclaraLitigio": "asset NoDeclaraLitigio = Service, -, VENDEDOR, noDeclaraLitigio, COMPRADOR;",
+      "EviccionLitigio": "asset EviccionLitigio = Service, +, VENDEDOR, eviccionLitigio, COMPRADOR;",
+      "BienesEspecificos": "asset BienesEspecificos = Property, M, VENDEDOR, bienesEspecificos, COMPRADOR;",
+      "NoRequisitosLegales": "asset NoRequisitosLegales = Service, -, VENDEDOR, requisitosLegales, COMPRADOR;",
+      "CompraBienesRaices": "asset CompraBienesRaices = Property, NM, COMPRADOR, compraBienesRaices, VENDEDOR;",
+      "VentaHerencia": "asset VentaHerencia = Property, M, COMPRADOR, ventaHerencia, VENDEDOR;",
+      "CompraJuicios": "asset CompraJuicios = Property, M, COMPRADOR, compraJuicios, VENDEDOR;",
+      "PatriaPotestad": "asset PatriaPotestad = Service, +, ARRENDADOR, patriaPotestad, ARRENDADOR;",
+      "VentaIndivisa": "asset VentaIndivisa = Property, M, VENDEDOR, ventaIndivisa, COMPRADOR;",
+      "AdministradorBienes": "asset AdministradorBienes = Property, M, VENDEDOR, administradorBienes, VENDEDOR;",
+      "NoPagarPrecio": "asset NoPagarPrecio = Service, +, COMPRADOR, noPagarPrecio, VENDEDOR;",
+      "NoPagarDondeEntrega": "asset NoPagarDondeEntrega = Service, -, COMPRADOR, noPagarDondeEntrega, VENDEDOR;",
+      "DepositoTercero": "asset DepositoTercero = Service, +, COMPRADOR, depositoTercero, VENDEDOR;",
+      "ConvenioIntereses": "asset ConvenioIntereses = Property, M, COMPRADOR, convenioIntereses, VENDEDOR;",
+      "PagarIntereses": "asset PagarIntereses = Service, +, COMPRADOR, pagarIntereses, VENDEDOR;",
+      "ProduceFrutos": "asset ProduceFrutos = Property, M, COMPRADOR, produceFrutos, VENDEDOR;",
+      "NoPagarInteresesPlazo": "asset NoPagarInteresesPlazo = Service, -, COMPRADOR, noPagarInteresesPlazo, VENDEDOR;",
+      "PagarInteresesPosterior": "asset PagarInteresesPosterior = Service, +, COMPRADOR, pagarInteresesPosterior, VENDEDOR;",
+      "SuspenderPago": "asset SuspenderPago = Service, +, COMPRADOR, suspenderPago, VENDEDOR;",
+      "AsegurarPosesion": "asset AsegurarPosesion = Service, +, VENDEDOR, asegurarPosesion, COMPRADOR;",
+      "CompraPlazo": "asset CompraPlazo = Property, M, COMPRADOR, compraAPlazos, VENDEDOR;",
+      "CompraEspera": "asset CompraEspera = Property, M, COMPRADOR, compraConEspera, VENDEDOR;",
+      "PerturbacionPosesion": "asset PerturbacionPosesion = Service, -, COMPRADOR, perturbacionPosesion, VENDEDOR;",
+      "JustoTemor": "asset JustoTemor = Service, -, COMPRADOR, justoTemor, VENDEDOR;",
+      "ConvenioContrario": "asset ConvenioContrario = Service, +, COMPRADOR, convenioContrario, VENDEDOR;",
+      "FormalizarContrato": "asset FormalizarContrato = Service, +, VENDEDOR, formalizarContrato, COMPRADOR;",
+      "RegularizacionTenencia": "asset RegularizacionTenencia = Property, NM, VENDEDOR, regularizacionTenencia, COMPRADOR;",
+      "OtorgarDocumentoPrivado": "asset OtorgarDocumentoPrivado = Service, +, VENDEDOR, otorgarDocumentoPrivado, COMPRADOR;",
+      "Ofrecer": "asset Ofrecer = Service, +, OFERENTE, ofrecer, ACREEDOR;",
+      "Sostener": "asset Sostener = Service, +, OFERENTE, sostener, ACREEDOR;",
+      "Condicion": "asset Condicion = Service, +, ACREEDOR, condicion, OFERENTE;",
+      "Servicio": "asset Servicio = Service, +, ACREEDOR, servicio, OFERENTE;",
+      "NoPago": "asset NoPago = Service, -, ACREEDOR, noPago, OFERENTE;",
+      "Recompensa": "asset Recompensa = Service, +, OFERENTE, recompensa, ACREEDOR;",
+      "NoRecompensa": "asset NoRecompensa = Service, -, ACREEDOR, noRecompensa, OFERENTE;",
+      "AntesCondicion": "asset AntesCondicion = Service, +, ACREEDOR, antesCondicion, OFERENTE;",
+      "AntesPrestado": "asset AntesPrestado = Service, -, ACREEDOR, antesPrestado, OFERENTE;",
+      "Revocacion": "asset Revocacion = Service, +, ACREEDOR, revocacion, ACREEDOR;",
+      "Erogaciones": "asset Erogaciones = Service, +, ACREEDOR, erogaciones, OFERENTE;",
+      "Reembolso": "asset Reembolso = Service, +, OFERENTE, reembolse, ACREEDOR;",
+      "Plazo": "asset Plazo = Service, +, OFERENTE, plazo, ACREEDOR;",
+      "RevocacionPlazo": "asset RevocacionPlazo = Service, +, OFERENTE, revocacionPlazo, ACREEDOR;",
+      "Simultaneo": "asset Simultaneo = Service, +, ACREEDOR, simultaneo, OFERENTE;",
+      "Proporcional": "asset Proporcional = Service, +, OFERENTE, proporcional, ACREEDOR;",
+      "Sorteo": "asset Sorteo = Service, +, OFERENTE, sorteo, ACREEDOR;",
+      "Divisible": "asset Divisible = Service, +, OFERENTE, divisible, ACREEDOR;",
+      "NoDivisible": "asset NoDivisible = Service, -, OFERENTE, noDivisible, ACREEDOR;",
+      "Concurso": "asset Concurso = Service, +, OFERENTE, concurso, ACREEDOR;",
+      "DesignaJuezConcurso": "asset DesignaJuezConcurso = Service, +, OFERENTE, designaJuezConcurso, ACREEDOR;",
+      "DecideQuien": "asset DecideQuien = Service, +, ACREEDOR, decideQuien, OFERENTE;",
+      "Beneficiario": "asset Beneficiario = Service, +, OFERENTE, beneficiario, ACREEDOR;",
+      "NoPactoContrarioBeneficiario": "asset PactoContrarioBeneficiario = Service, -, OFERENTE, pactoContrarioBeneficiario, ACREEDOR;",
+      "BeneficioTercero": "asset BeneficioTercero = Service, +, OFERENTE, beneficioTercero, ACREEDOR;",
+      "NoManifiestaOferta": "asset NoManifiestaOferta = Service, -, ACREEDOR, noManifiestaOferta, OFERENTE;",
+      "RechazaOferta": "asset RechazaOferta = Service, +, ACREEDOR, rechazaOferta, OFERENTE;",
+      "OponerExcepciones": "asset OponerExcepciones = Service, +, OFERENTE, oponerExcepciones, ACREEDOR;",
+      "TransferirPropiedadDinero": "asset TransferirPropiedadDinero = Property, M, ACREEDOR, transferirPropiedadDinero, DEUDOR;",
+      "DevolverOtroTanto": "asset DevolverOtroTanto = Property, M, DEUDOR, devolverOtroTanto, ACREEDOR;",
+      "NoFijePlazo": "asset NoFijePlazo = Service, -, MUTUANTE, noFijePlazo, MUTUARIO;",
+      "PrestamoCereales": "asset PrestamoCereales = Property, M, MUTUANTE, prestamoCereales, MUTUARIO;",
+      "RestitucionSiguienteCosecha": "asset RestitucionSiguienteCosecha = Property, M, MUTUARIO, restitucionSiguienteCosecha, MUTUARIO;",
+      "NoSeñale": "asset NoSeñale = Service, -, MUTUANTE, noSeñale, MUTUARIO;",
+      "EntregarDondeEncuentre": "asset EntregarDondeEncuentre = Property, M, MUTUARIO, entregarDondeEncuentre, MUTUARIO;",
+      "EntregarDondeRecibio": "asset EntregarDondeRecibio = Property, M, MUTUARIO, entregarDondeRecibio, MUTUANTE;",
+      "EntregarDomicilioDeudor": "asset EntregarDomicilioDeudor = Property, M, MUTUARIO, entregarDomicilioDeudor, MUTUARIO;",
+      "PrestamoConsisteEfectos": "asset PrestamoConsisteEfectos = Property, M, MUTUANTE, prestamoConsisteEfectos, MUTUARIO;",
+      "PrestamoConsisteDinero": "asset PrestamoConsisteDinero = Property, M, MUTUANTE, prestamoConsisteDinero, MUTUARIO;",
+      "ArrendamientoCincoAnos": "asset ArrendamientoCincoAnos = Service, +, ARRENDADOR, arrendamientoCincoAnos, ARRENDATARIO;",
+      "PagoDosAnos": "asset PagoDosAnos = Service, +, ARRENDADOR, pagoDosAnos, ARRENDATARIO;",
+      "Uso": "asset Uso = Service, +, ARRENDATARIO, usar, ARRENDADOR;",
+      "PagoRenta": "asset PagoRenta = Property, M, ARRENDADOR, arrendar, ARRENDATARIO;",
+      "Arrendamiento": "asset Arrendamiento = Service, +, ARRENDADOR, arrendar, ARRENDATARIO;",
+      "Tutela": "asset Tutela = Service, +, PROPIETARIO, tutela, ARRENDADOR;",
+      "PagoDinero": "asset PagoDinero = Property, M, ARRENDADOR, pagoDinero, ARRENDATARIO;",
+      "PagoEquivalente": "asset PagoEquivalente = Property, M, ARRENDADOR, pagoEquivalente, ARRENDATARIO;",
+      "": "asset  = Service, +, PROPIETARIO, patriaPotestad, ARRENDADOR;",
+      "ArrendamientoComercial": "asset ArrendamientoComercial = Service, +, ARRENDADOR, arrendamientoComercial, ARRENDATARIO;",
+      "ArrendamientoIndustrial": "asset ArrendamientoIndustrial = Service, +, ARRENDADOR, arrendamientoIndustrial, ARRENDATARIO;",
+      "ArrendamientoMasVeinteAnos": "asset ArrendamientoMasVeinteAnos = Service, +, ARRENDADOR, arrendamientoMasVeinteAnos, ARRENDATARIO;",
+      "DuracionIndeterminada": "asset DuracionIndeterminada = Service, +, ARRENDADOR, duracionIndeterminada, ARRENDATARIO;",
+      "TerminacionArrendamientoVoluntad": "asset TerminacionArrendamientoVoluntad = Service, +, ARRENDADOR, terminacionArrendamientoVoluntad, ARRENDATARIO;",
+      "PersistirTrasMuerte": "asset PersistirTrasMuerte = Service, +, ARRENDATARIO, persistirTrasMuerteArrendador, ARRENDADOR;",
+      "PersistirTrasMuerteArrendatario": "asset PersistirTrasMuerteArrendatario = Service, +, ARRENDADOR, persistirTrasMuerteArrendatario, ARRENDATARIO;",
+      "VentaPropiedad": "asset VentaPropiedad = Property, NM, PROPIETARIO, ventaPropiedad, ARRENDADOR;",
+      "NotificaciónArrendatario": "asset NotificaciónArrendatario = Service, +, ARRENDATARIO, notificacionArrendatario, ARRENDADOR;",
+      "ReparacionMenor": "asset ReparacionMenor = Service, +, ARRENDATARIO, reparacionMenor, ARRENDADOR;",
+      "PerdidaParcial": "asset PerdidaParcial = Service, +, ARRENDADOR, perdidaParcial, ARRENDATARIO;",
+      "PerdidaTotal": "asset PerdidaTotal = Service, +, ARRENDATARIO, perdidaTotal, ARRENDADOR;",
+      "CompraPropiedad": "asset CompraPropiedad = Service, +, ARRENDATARIO, compraPropiedad, ARRENDADOR;",
+      "ArrendamientoMenorUnAno": "asset ArrendamientoMenorUnAno = Service, +, ARRENDADOR, arrendamientoMenorUnAno, ARRENDATARIO;",
+      "CreditoOtorgado": "asset CreditoOtorgado = Service, +, PRESTADOR, otorgar_credito, ACREDITADO;",
+      "CreditoDispuesto": "asset CreditoDispuesto = Service, +, ACREDITADO, disponer_credito, PRESTADOR;",
+      "InversionRealizada": "asset InversionRealizada = Service, +, DEUDOR, invertir_credito, ACREEDOR;",
+      "ContratoRegistrado": "asset ContratoRegistrado = Service, +, DEUDOR, registrar_contrato, ACREEDOR;",
+      "InversionComprobada": "asset InversionComprobada = Service, +, ACREDITADO, comprobar_inversion, PRESTADOR;",
+      "CreditoCedido": "asset CreditoCedido = Service, +, PRESTADOR, ceder_credito, ACREDITADO;",
+      "InteresesOrdinariosPagados": "asset InteresesOrdinariosPagados = Service, +, ACREDITADO, pagar_intereses_ordinarios, PRESTADOR;",
+      "InteresesMoratoriosPagados": "asset InteresesMoratoriosPagados = Service, +, ACREDITADO, pagar_intereses_moratorios, PRESTADOR;",
+      "InteresesOrdinariosCalculados": "asset InteresesOrdinariosCalculados = Service, +, PRESTADOR, calcular_intereses_ordinarios, ACREDITADO;",
+      "InteresesMoratoriosCalculados": "asset InteresesMoratoriosCalculados = Service, +, PRESTADOR, calcular_intereses_ordinarios, ACREDITADO;"
+    }
+  },
+  "translations": [
+    {
+      "article_number": "1887;",
+      "original": "El acreedor de cosa cierta no puede ser obligado a recibir otra aún cuando sea de mayor valor.;",
+      "strings": {
+        "dominioCosaCierta": "\"debe la traslación de dominio de cosa cierta\";",
+        "cosaDistintaADebida": "\"no acepte cosa distinta a la debida, aún cuando sea de mayor valor\";"
+      },
+      "assets": {
+        "DominioCosaCierta": "asset DominioCosaCierta = Property, M, DEUDOR, dominioCosaCierta, ACREEDOR;",
+        "CosaDistintaADebida": "asset CosaDistintaADebida = Property, M, DEUDOR, cosaDistintaADebida, ACREEDOR;"
+      },
+      "clauses": {
+        "MDCCCLXXXVII": "clause MDCCCLXXXVII = {DominioCosaCierta,PVG(CosaDistintaADebida)};"
+      }
+    },
+    {
+      "article_number": "1888;",
+      "original": "La obligación de dar cosa cierta comprende también la de entregar sus accesorios, salvo que lo contrario resulte del título de la obligación o de las circunstancias del caso.;",
+      "strings": {
+        "accesorios": "\"debe entregar la cosa cierta y sus accesorios\";",
+        "noPactoEnContrarioAccesorios": "\"no pacta no entregar los accesorios\";"
+      },
+      "assets": {
+        "Accesorios": "asset Accesorios = Service, +, DEUDOR, accesorios, ACREEDOR;",
+        "NoPactoEnContrarioAccesorios": "asset NoPactoEnContrarioAccesorios = Service, -, DEUDOR, noPactoEnContrarioAccesorios, DEUDOR;"
+      },
+      "clauses": {
+        "MDCCCLXXXVIII": "clause MDCCCLXXXVIII = {DominioCosaCierta AND NoPactoEnContrarioAccesorios,CR(Accesorios)};"
+      }
+    },
+    {
+      "article_number": "1889;",
+      "original": "En las enajenaciones de cosas ciertas y determinadas, la traslación de la propiedad se verifica entre los contratantes, por mero efecto del contrato, sin dependencia de tradición ya sea natural, ya sea simbólica; debiendo tenerse en cuenta las disposiciones relativas del Registro Público.;",
+      "strings": {
+        "traslacion": "\"adquiera el dominio de cosa cierta frente\";"
+      },
+      "assets": {
+        "Traslacion": "asset Traslacion = Property, M, ACREEDOR, traslacion, DEUDOR;"
+      },
+      "clauses": {
+        "MDCCCLXXXIX": "clause MDCCCLXXXIX = {DominioCosaCierta,CR(Traslacion)};"
+      }
+    },
+    {
+      "article_number": "1890;",
+      "original": "En las enajenaciones de alguna especie indeterminada, la propiedad no se transferirá sino hasta el momento en que la cosa se hace cierta y determinada con conocimiento del acreedor.;",
+      "strings": {
+        "enajenacionIncierta": "debe la enajenación de cosa indeterminada;",
+        "noDeterminaCosaIncierta": "\"no determine la cosa indeterminada\";"
+      },
+      "assets": {
+        "EnajenacionIncierta": "asset EnajenacionIncierta = Property, M, ACREEDOR, enajenacionIncierta, DEUDOR;",
+        "NoDeterminaCosaIncierta": "asset NoDeterminaCosaIncierta = Service, -, DEUDOR, noDeterminaCosaIncierta, ACREEDOR;"
+      },
+      "clauses": {
+        "MDCCCXC": "clause MDCCCXC = {EnajenacionIncierta AND Traslacion,PR(NoDeterminaCosaIncierta)};"
+      }
+    },
+    {
+      "article_number": "1891;",
+      "original": "En el caso del artículo que precede, si no se designa la calidad de la cosa, el deudor cumple entregando una de mediana calidad.;",
+      "strings": {
+        "medianaCalidad": "\"entregue la cosa de mediana calidad\";"
+      },
+      "assets": {
+        "MedianaCalidad": "asset MedianaCalidad = Service, +, DEUDOR, medianaCalidad, ACREEDOR;"
+      },
+      "clauses": {
+        "MDCCCXCI": "clause MDCCCXCI = {EnajenacionIncierta,PVG(MedianaCalidad)};"
+      }
+    },
+    {
+      "article_number": "1892;",
+      "original": "En los casos en que la obligación de dar cosa cierta importe la traslación de la propiedad de esa cosa, y se pierde o deteriora en poder del deudor, se observarán las reglas siguientes: I.- Si la pérdida fue por culpa del deudor, éste responderá al acreedor por el valor de la cosa y por los daños y perjuicios; II.Si la cosa se deteriorare por culpa del deudor, el acreedor puede optar por la rescisión del contrato y el pago de daños y perjuicios, o recibir la cosa en el estado que se encuentre y exigir la reducción de precio y el pago de daós y perjuicios; III.- Si la cosa se perdiere por culpa del acreedor, el deudor queda libre de la obligación; IV.- Si se deteriorare por culpa del acreedor, éste tiene obligación de recibir la cosa en el estado en que se halle; V.- Si la cosa se pierde por caso fortuito o fuerza mayor, la obligación queda sin efecto y el dueño sufre la pérdida, a menos que otra cosa se haya convenido.;",
+      "strings": {
+        "deterioroDeudor": "\"pierda o deteriore la cosa a entregar\";",
+        "fuerzaMayor": "\"pierda la cosa a entregar por fuerza mayor o un tercero\";",
+        "daños": "\"el pago de daños y perjuicios\";",
+        "reduccion": "\"entrega de la cosa deteriorada con descuento\";"
+      },
+      "assets": {
+        "DeterioroDeudor": "asset DeterioroDeudor = Service, +, DEUDOR, deterioroDeudor, ACREEDOR;",
+        "DeterioroAcreedor": "asset DeterioroAcreedor = Service, +, ACREEDOR, deterioroDeudor, DEUDOR;",
+        "FuerzaMayor": "asset FuerzaMayor = Service, +, DEUDOR, fuerzaMayor, ACREEDOR;",
+        "Daños": "asset Daños = Service, +, DEUDOR, daños, ACREEDOR;",
+        "Reduccion": "asset Reduccion = Service, +, DEUDOR, reduccion, ACREEDOR;"
+      },
+      "clauses": {
+        "MDCCCXCIIa": "clause MDCCCXCIIa = {DominioCosaCierta AND Accesorios,PR(DeterioroDeudor)};",
+        "MDCCCXCIIb": "clause MDCCCXCIIb = {DeterioroAcreedor,PR(Traslacion)};",
+        "MDCCCXCIIc": "clause MDCCCXCIIc = {FuerzaMayor,PR(Traslacion)};",
+        "MDCCCXCIId": "clause MDCCCXCIId = {DeterioroDeudor,CR(Daños)};",
+        "MDCCCXCIIe": "clause MDCCCXCIIe = {DeterioroDeudor,CR(Reduccion)};"
+      }
+    },
+    {
+      "article_number": "1895;",
+      "original": "El deudor de una cosa perdida o deteriorada sin culpa suya, está obligado a ceder al acreedor cuántos derechos y acciones tuviere para reclamar la indemnización a quien fuere responsable.;",
+      "strings": {
+        "entregarAcciones": "\"entregue acciones para demandar al culpable\";"
+      },
+      "assets": {
+        "EntregarAcciones": "asset EntregarAcciones = Property, M, DEUDOR, entregarAcciones, ACREEDOR;"
+      },
+      "clauses": {
+        "MDCCCXCV": "clause MDCCCXCV = {FuerzaMayor,CR(EntregarAcciones)};"
+      }
+    },
+    {
+      "article_number": "1896;",
+      "original": "La pérdida de la cosa puede verificarse: I.- Pereciendo la cosa o quedando fuera del comercio; II.- Desapareciendo de modo que no se tengan noticias de ella o que aunque se tenga alguna, la cosa no se pueda recobrar.;",
+      "strings": {
+        "exclusionComercio": "\"sufre exclusión del comercio de la cosa frente\";",
+        "noRecobrar": "\"no puede recobrar la cosa por esta desaparecer\";"
+      },
+      "assets": {
+        "ExclusionComercio": "asset ExclusionComercio = Property, M, DEUDOR, exclusionComercio, ACREEDOR;",
+        "NoRecobrar": "asset NoRecobrar = Service, -, DEUDOR, noRecobrar, ACREEDOR;"
+      },
+      "clauses": {
+        "MDCCCXCVI": "clause MDCCCXCVI = {ExclusionComercio,PR(Traslacion)};",
+        "MDCCCXCVIb": "clause MDCCCXCVIb = {NoRecobrar,PR(Traslacion)};"
+      }
+    },
+    {
+      "article_number": "1899;",
+      "original": "En los contratos en que la prestación de la cosa no importe la traslación de la propiedad, el riesgo será siempre de cuenta del acreedor, a menos que intervenga culpa o negligencia de la otra parte.;",
+      "strings": {
+        "usoGoce": "\"debe la enajenación temporal del uso o goce de cosa cierta\";",
+        "asumePerdida": "\"asume su pérdida frente\";"
+      },
+      "assets": {
+        "AsumePerdidaDeudor": "asset AsumePerdidaDeudor = Service, +, DEUDOR, asumePerdida, ACREEDOR;",
+        "AsumePerdidaAcreedor": "asset AsumePerdidaAcreedor = Service, +, ACREEDOR, asumePerdida, DEUDOR;",
+        "UsoGoce": "asset UsoGoce = Property, M, DEUDOR, usoGoce, ACREEDOR;"
+      },
+      "clauses": {
+        "MDCCCXCIXa": "clause MDCCCXCIXa = {DeterioroAcreedor AND UsoGoce,CR(AsumePerdidaAcreedor)};",
+        "MDCCCXCIXb": "clause MDCCCXCIXb = {DeterioroDeudor AND UsoGoce,CR(AsumePerdidaDeudor)};"
+      }
+    },
+    {
+      "article_number": "2122;",
+      "original": "Habrá compraventa cuando uno de los contratantes se obliga a transferir la propiedad de una cosa o de un derecho, y el otro a su vez se obliga a pagar por ellos un precio cierto y en dinero.;",
+      "strings": {
+        "pago": "\"debe pagar un precio cierto y en dinero\";",
+        "comprador": "\"ser comprador frente\";",
+        "vendedor": "\"ser vendedor frente\";",
+        "compraventa": "\"acuerde compraventa junto\";"
+      },
+      "assets": {
+        "Comprador": "asset Comprador = Property, M, COMPRADOR, comprador, VENDEDOR;",
+        "Vendedor": "asset Vendedor = Property, M, VENDEDOR, vendedor, COMPRADOR;",
+        "Compraventa": "asset Compraventa = Service, +, VENDEDOR, compraventa, COMPRADOR;"
+      },
+      "clauses": {
+        "MMCXXIIa": "clause MMCXXIIa = {Traslacion AND Pago,CR(Comprador)};",
+        "MMCXXIIb": "clause MMCXXIIb = {Traslacion AND Pago,CR(Vendedor)};",
+        "MMCXXIIc": "clause MMCXXIIc = {Comprador AND Vendedor,CR(Compraventa)};"
+      }
+    },
+    {
+      "article_number": "2123;",
+      "original": "Por regla general, la venta es perfecta y obligatoria para las partes cuando se han convenido sobre la cosa y su precio aunque la primera no haya sido entregada, ni el segundo satisfecho.;",
+      "strings": {
+        "acordarCosa": "\"conviene sobre la cosa, incluso si no se entrega\";",
+        "acordarPrecio": "\"convenga sobre la cosa, incluso si no se paga\";"
+      },
+      "assets": {
+        "AcordarCosa": "asset AcordarCosa = Service, +, VENDEDOR, acordarCosa, COMPRADOR;",
+        "AcordarPrecio": "asset AcordarPrecio = Service, +, VENDEDOR, acordarPrecio, COMPRADOR;"
+      },
+      "clauses": {
+        "MMCXXIII": "clause MMCXXIII = {AcordarCosa AND AcordarPrecio,CR(Traslacion)};",
+        "MMCXXIIIb": "clause MMCXXIIIb = {AcordarCosa AND AcordarPrecio,CR(Compraventa)};"
+      }
+    },
+    {
+      "article_number": "2124;",
+      "original": "Si el precio de la cosa vendida se ha de pagar parte en dinero y parte con el valor de otra cosa, el contrato será de venta cuando la parte de numerario sea igual o mayor que la que se pague con el valor de otra cosa. Si la parte en numerario fuere inferior, el contrato será de permuta.;",
+      "strings": {
+        "parcialEnCosas": "\"pague en su mayoría parte con valor de otra cosa\";"
+      },
+      "assets": {
+        "ParcialEnCosas": "asset ParcialEnCosas = Service, +, VENDEDOR, parcialEnCosas, COMPRADOR;"
+      },
+      "clauses": {
+        "MMCXXIV": "clause MMCXXIV = {ParcialEnCosas,PR(Compraventa)};"
+      }
+    },
+    {
+      "article_number": "2125;",
+      "original": "Los contratantes pueden convenir en que el precio sea el que corren en día o lugar determinado o el que fije un tercero.;",
+      "strings": {
+        "precioDeLugar": "\"acuerda el precio que corre en día o lugar determinados\";",
+        "precioDeTercero": "\"acuerda el precio que fije un tercero\";"
+      },
+      "assets": {
+        "PrecioDeLugar": "asset PrecioDeLugar = Service, +, VENDEDOR, precioDeLugar, COMPRADOR;",
+        "PrecioDeTercero": "asset PrecioDeTercero = Service, +, VENDEDOR, precioDeTercero, COMPRADOR;"
+      },
+      "clauses": {
+        "MCCXXVa": "clause MCCXXVa = {PrecioDeLugar,PVG(Compraventa)};",
+        "MCCXXVb": "clause MCCXXVb = {PrecioDeTercero,PVG(Compraventa)};"
+      }
+    },
+    {
+      "article_number": "2126;",
+      "original": "Fijado el precio por el tercero, no podrá ser rechazado por los contratantes, sino de común acuerdo.;",
+      "strings": {
+        "rechazoComun": "\"rechaza por común acuerdo junto\";"
+      },
+      "assets": {
+        "RechazoComun": "asset RechazoComun = Service, +, VENDEDOR, rechazoComun, COMPRADOR;"
+      },
+      "clauses": {
+        "MCCXVI": "clause MCCXVI = {PrecioDeTercero,PVG(RechazoComun)};"
+      }
+    },
+    {
+      "article_number": "2127;",
+      "original": "Si el tercero no quiere o no puede señalar el precio, quedará sin efecto; salvo convenio en contrario.;",
+      "strings": {
+        "terceroNoSeñala": "\"muestra que el tercero no puede señalar el precio\";",
+        "contratoNulo": "\"deja el contrato sin efecto frente\";"
+      },
+      "assets": {
+        "TerceroNoSeñala": "asset TerceroNoSeñala = Service, -, VENDEDOR, terceroNoSeñala, COMPRADOR;",
+        "ContratoNuloVendedor": "asset ContratoNuloVendedor = Property, M, VENDEDOR, contratoNulo, COMPRADOR;",
+        "ContratoNuloComprador": "asset ContratoNuloComprador = Property, M, COMPRADOR, contratoNulo, VENDEDOR;"
+      },
+      "clauses": {
+        "MCCXVIIa": "clause MCCXVIIa = {TerceroNoSeñala,PVG(ContratoNuloComprador)};",
+        "MCCXVIIb": "clause MCCXVIIb = {TerceroNoSeñala,PVG(ContratoNuloVendedor)};"
+      }
+    },
+    {
+      "article_number": "2128;",
+      "original": "El señalamiento de precio no puede dejarse al arbitrio de uno de los contratantes.;",
+      "strings": {
+        "precioArbitrio": "\"señala el precio a su solo arbitrio\";"
+      },
+      "assets": {
+        "PrecioArbitrioVendedor": "asset PrecioArbitrioVendedor = Service, +, VENDEDOR, precioArbitrio, COMPRADOR;",
+        "PrecioArbitrioComprador": "asset PrecioArbitrioComprador = Service, +, COMPRADOR, precioArbitrio, VENDEDOR;"
+      },
+      "clauses": {
+        "MCCXVIIIa": "clause MCCXVIIIa = {PrecioArbitrioComprador,CR(ContratoNuloVendedor)};",
+        "MCCXVIIIb": "clause MCCXVIIIb = {PrecioArbitrioVendedor, CR(ContratoNuloComprador)};"
+      }
+    },
+    {
+      "article_number": "2129;",
+      "original": "El comprador debe pagar el precio en los términos y plazos convenidos. A falta de convenio lo deberá pagar al contado. La demora en el pago del precio lo constituirá en la obligación de pagar réditos al tipo legal sobre la cantidad que adeude.;",
+      "strings": {
+        "noPagoPlazo": "\"falla en pagar en plazo convenido\";",
+        "noPagoInmediato": "\"falle en pagar inmediatamente\";",
+        "noFijaPlazo": "\"no conviene en plazo de pago junto\";",
+        "reditoLegal": "\"pagar el rédito legal de interés\";"
+      },
+      "assets": {
+        "NoPagoPlazo": "asset NoPagoPlazo = Service, -, VENDEDOR, noPagoPlazo, COMPRADOR;",
+        "NoPagoInmediato": "asset NoPagoInmediato = Service, -, COMPRADOR, noPagoInmediato, VENDEDOR;",
+        "NoFijaPlazo": "asset NoFijaPlazo = Service, -, VENDEDOR, noFijaPlazo, COMPRADOR;",
+        "ReditoLegal": "asset ReditoLegal = Service, +, COMPRADOR, reditoLegal, VENDEDOR;"
+      },
+      "clauses": {
+        "MMCXXIX": "clause MMCXXIX = {NoFijaPlazo AND NoPagoInmediato,CR(ReditoLegal)};",
+        "MMCXXIXb": "clause MMCXXIXb = {NoPagoPlazo,CR(ReditoLegal)};"
+      }
+    },
+    {
+      "article_number": "2143;",
+      "original": "Ninguno puede vender sino lo que es de su propiedad.;",
+      "strings": {
+        "cosaAjena": "\"venda cosa ajena\";"
+      },
+      "assets": {
+        "CosaAjena": "asset CosaAjena = Property, M, VENDEDOR, cosaAjena, COMPRADOR;"
+      },
+      "clauses": {
+        "MMCXLIII": "clause MMCXLIII = {Compraventa,PR(CosaAjena)};"
+      }
+    },
+    {
+      "article_number": "2144;",
+      "original": "La venta de cosa ajena es nula, y el vendedor es responsable de los daños y perjuicios si procede con dolo o mala fe; debiendo tenerse en cuenta lo que se dispone en el Título relativo al Registro Público para los adquirentes de buena fe.;",
+      "strings": {
+        "dolo": "\"proceda con dolo o mala fe frente\";"
+      },
+      "assets": {
+        "Dolo": "asset Dolo = Service, +, VENDEDOR, dolo, COMPRADOR;"
+      },
+      "clauses": {
+        "MMCXLIV": "clause MMCXLIV = {CosaAjena AND Dolo,CR(Daños)};"
+      }
+    },
+    {
+      "article_number": "2145;",
+      "original": "El contrato quedará revalidado, si antes de que tenga lugar la evicción, adquiere el vendedor, por cualquier título legítimo, la propiedad de la cosa vendida.;",
+      "strings": {
+        "revalidado": "\"quede revalidado si antes de la evicción adquiere la propiedad\";"
+      },
+      "assets": {
+        "Revalidado": "asset Revalidado = Service, +, VENDEDOR, revalidado, COMPRADOR;"
+      },
+      "clauses": {
+        "MMCXLV": "clause MMCXLV = {CosaAjena,PVG(Revalidado)};"
+      }
+    },
+    {
+      "article_number": "2146;",
+      "original": "La venta de cosa o derechos litigiosos no está prohibida; pero el vendedor que no declare la circunstancia de hallarse la cosa en litigio, es responsable de los daños y perjuicios si el comprador sufre la evicción, quedando además, sujeto a las penas respectivas.;",
+      "strings": {
+        "cosaLitigiosa": "\"venda cosas o derechos litigiosos\";",
+        "noDeclaraLitigio": "\"no declare la circunstancia de hallarse la cosa en litigio\";",
+        "eviccionLitigio": "\"es responsable de los daños y perjuicios si sufre la evicción\";"
+      },
+      "assets": {
+        "CosaLitigiosa": "asset CosaLitigiosa = Property, M, VENDEDOR, cosaLitigiosa, COMPRADOR;",
+        "NoDeclaraLitigio": "asset NoDeclaraLitigio = Service, -, VENDEDOR, noDeclaraLitigio, COMPRADOR;",
+        "EviccionLitigio": "asset EviccionLitigio = Service, +, VENDEDOR, eviccionLitigio, COMPRADOR;"
+      },
+      "clauses": {
+        "MMCXLVIa": "clause MMCXLVIa = {CosaLitigiosa AND NoDeclaraLitigio,CR(EviccionLitigio)};",
+        "MMCXLVIb": "clause MMCXLVIb = {CosaLitigiosa AND NoDeclaraLitigio,CR(Daños)};"
+      }
+    },
+    {
+      "article_number": "2147;",
+      "original": "Tratándose de la venta de determinados bienes, como los pertenecientes a las personas menores de dieciocho años o personas que no tengan la capacidad para comprender el significado del hecho, los de propiedad pública, los empeñados o hipotecados, etc., deben observarse los requisitos exigidos por la Ley para que la venta sea perfecta.;",
+      "strings": {
+        "bienesEspecificos": "\"venda bienes de menores de edad, incapacitados, de propiedad pública, empeñados o hipotecados\";",
+        "noRequisitosLegales": "\"no observa los requisitos exigidos por la Ley para que la venta sea perfecta frente\";"
+      },
+      "assets": {
+        "BienesEspecificos": "asset BienesEspecificos = Property, M, VENDEDOR, bienesEspecificos, COMPRADOR;",
+        "NoRequisitosLegales": "asset NoRequisitosLegales = Service, -, VENDEDOR, noRequisitosLegales, COMPRADOR;"
+      },
+      "clauses": {
+        "MMCXLVII": "clause MMCXLVII = {BienesEspecificos AND NoRequisitosLegales,CR(ContratoNuloComprador)};"
+      }
+    },
+    {
+      "article_number": "2148;",
+      "original": "Los extranjeros y las personas morales no pueden comprar bienes raíces, sinon sujetándose a lo dispuesto en el artículo 27 de la Constitución Política de los Estados Unidos Mexicanos, y en sus Leyes Reglamentarias.;",
+      "strings": {
+        "compraBienesRaices": "\"compre bienes raíces\";"
+      },
+      "assets": {
+        "CompraBienesRaices": "asset CompraBienesRaices = Property, NM, COMPRADOR, compraBienesRaices, VENDEDOR;"
+      },
+      "clauses": {
+        "MMCXLVIII": "clause MMCXLVIII = {CompraBienesRaices,PR(NoRequisitosLegales)};"
+      }
+    },
+    {
+      "article_number": "2151;",
+      "original": "Los Magistrados, los Jueces, el Ministerio Público los Defensores Oficiales, los Abogados, los Procuradores y los peritos no pueden comprar los bienes que son objeto de los juicios en que intervengan. Se exceptúa la venta o cesión de acciones hereditarias cuando sean coherederas las personas mencionadas, o de derechos a que estén afectos bienes de su propiedad.;",
+      "strings": {
+        "compraJuicios": "\"compre bienes que son objeto de los juicios\";",
+        "ventaHerencia": "\"venda o ceda acciones hereditarias\";"
+      },
+      "assets": {
+        "VentaHerencia": "asset VentaHerencia = Property, M, COMPRADOR, ventaHerencia, VENDEDOR;",
+        "CompraJuicios": "asset CompraJuicios = Property, M, COMPRADOR, compraJuicios, VENDEDOR;"
+      },
+      "clauses": {
+        "MMCLI": "clause MMCLI = {VentaHerencia,PVG(CompraJuicios)};"
+      }
+    },
+    {
+      "article_number": "2152;",
+      "original": "Los hijos sujetos a patria potestad solamente pueden vender a sus padres los bienes que adquiera por su trabajo.;",
+      "strings": {
+        "patriaPotestad": "\"venda bienes a sus padres\";"
+      },
+      "assets": {
+        "PatriaPotestad": "asset PatriaPotestad = Property, M, COMPRADOR, patriaPotestad, VENDEDOR;"
+      },
+      "clauses": {
+        "MMCLII": "clause MMCLII = {PatriaPotestad,PVG(VentaHerencia)};"
+      }
+    },
+    {
+      "article_number": "2153;",
+      "original": "Los propietarios de cosa indivisa no pueden vender su parte respectiva a extraños, sino cumpliendo lo dispuesto en los artículos 960 y 961.;",
+      "strings": {
+        "ventaIndivisa": "\"vende su parte indivisa\";"
+      },
+      "assets": {
+        "VentaIndivisa": "asset VentaIndivisa = Property, M, VENDEDOR, ventaIndivisa, COMPRADOR;"
+      },
+      "clauses": {
+        "MMCLIII": "clause MMCLIII = {VentaIndivisa AND NoRequisitosLegales,CR(ContratoNuloComprador)};"
+      }
+    },
+    {
+      "article_number": "2154;",
+      "original": "No pueden comprar los bienes de cuya venta o administración se hallen encargados: I.- Los tutores o curadores; II.-Los mandatarios; III.- Los interventores nombrados por el testador o por los herederos;",
+      "strings": {
+        "administradorBienes": "\"compre bienes de cuya venta o administración se halla encargado\";"
+      },
+      "assets": {
+        "AdministradorBienes": "asset AdministradorBienes = Property, M, VENDEDOR, administradorBienes, VENDEDOR;"
+      },
+      "clauses": {
+        "MMCLIV": "clause MMCLIV = {AdministradorBienes,CR(ContratoNuloComprador)};"
+      }
+    },
+    {
+      "article_number": "2157;",
+      "original": "El vendedor está obligado: I.- A entregar al comprador la cosa vendida; II.- A garantir las calidades de la cosa; III.- A prestar la evicción.;",
+      "strings": {
+        "noPagarPrecio": "\"no pague el precio de la cosa en el tiempo, lugar y forma convenidos\";",
+        "noPagarDondeEntrega": "\"no paga en el tiempo y lugar en que se entregue la cosa\";"
+      },
+      "assets": {
+        "NoPagarPrecio": "asset NoPagarPrecio = Service, -, COMPRADOR, noPagarPrecio, VENDEDOR;",
+        "NoPagarDondeEntrega": "asset NoPagarDondeEntrega = Service, -, COMPRADOR, noPagarDondeEntrega, VENDEDOR;"
+      },
+      "clauses": {
+        "MMCLXVII": "clause MMCLXVII = {NoPagarPrecio AND NoPagarDondeEntrega,PR(Compraventa)};"
+      }
+    },
+    {
+      "article_number": "2159;",
+      "original": "Los gastos de la entrega de la cosa vendida son de cuenta del vendedor, y los de su transporte o traslación, de cargo del comprador, salvo convenio en contrario.;",
+      "strings": {
+        "depositoTercero": "\"hará el depósito en manos de un tercero, en duda de quién entregará primero\";"
+      },
+      "assets": {
+        "DepositoTercero": "asset DepositoTercero = Service, +, COMPRADOR, depositoTercero, VENDEDOR;"
+      },
+      "clauses": {
+        "MMCLXIX": "clause MMCLXIX = {DepositoTercero,PR(NoPagarPrecio)};"
+      }
+    },
+    {
+      "article_number": "2170;",
+      "original": "El comprador debe intereses por el tiempo que medie entre la entrega de la cosa y el pago del preciom en los tres casos siguientes: I.- Si así se hubiese convenido; II.- Si la cosa vendida y enetregada produce fruto o renta; III.- Si se hubiere constituido mora;",
+      "strings": {
+        "convenioIntereses": "\"pague el interés de la mora entre la entrega y pago si lo conviene frente\";",
+        "pagarIntereses": "\"pague intereses por el tiempo entre la entrega y el pago\";",
+        "produceFrutos": "\"tiene la cosa en producción de frutos\";"
+      },
+      "assets": {
+        "ConvenioIntereses": "asset ConvenioIntereses = Property, M, COMPRADOR, convenioIntereses, VENDEDOR;",
+        "PagarIntereses": "asset PagarIntereses = Service, +, COMPRADOR, pagarIntereses, VENDEDOR;",
+        "ProduceFrutos": "asset ProduceFrutos = Property, M, COMPRADOR, produceFrutos, VENDEDOR;"
+      },
+      "clauses": {
+        "MMCLXXa": "clause MMCLXXa = {ConvenioIntereses,CR(PagarIntereses)};",
+        "MMCLXXb": "clause MMCLXXb = {ProduceFrutos,OB(ReditoLegal)};"
+      }
+    },
+    {
+      "article_number": "2173;",
+      "original": "Cuando el comprador a plazo con espera del precio fuere perturbado en su posesión o derecho, o tuviere justo temor de serlo, podrá suspender el pago si aún no lo ha hecho, mientras el vendedor no le asegure la posesión o le dé fianza, salvo si hay convenio en contrario.;",
+      "strings": {
+        "noPagarInteresesPlazo": "\"no pague intereses en ventas a plazo sin estipulación\";",
+        "pagarInteresesPosterior": "\"pague intereses si el plazo fue posterior al contrato\";",
+        "suspenderPago": "\"suspenda el pago si es perturbado en su posesión o derecho\";",
+        "asegurarPosesion": "\"asegurar la posesión o dar fianza al comprador\";",
+        "compraAPlazos": "\"compre a plazos\";",
+        "compraConEspera": "\"compre con espera del precio\";",
+        "perturbacionPosesion": "\"ser perturbado en su posesión o derecho\";",
+        "justoTemor": "\"tener justo temor de ser perturbado en su posesión o derecho\";",
+        "convenioContrario": "\"tenga convenio en contrario frente\";"
+      },
+      "assets": {
+        "NoPagarInteresesPlazo": "asset NoPagarInteresesPlazo = Service, -, COMPRADOR, noPagarInteresesPlazo, VENDEDOR;",
+        "PagarInteresesPosterior": "asset PagarInteresesPosterior = Service, +, COMPRADOR, pagarInteresesPosterior, VENDEDOR;",
+        "SuspenderPago": "asset SuspenderPago = Service, +, COMPRADOR, suspenderPago, VENDEDOR;",
+        "AsegurarPosesion": "asset AsegurarPosesion = Service, +, VENDEDOR, asegurarPosesion, COMPRADOR;",
+        "CompraPlazo": "asset CompraPlazo = Property, M, COMPRADOR, compraAPlazos, VENDEDOR;",
+        "CompraEspera": "asset CompraEspera = Property, M, COMPRADOR, compraConEspera, VENDEDOR;",
+        "PerturbacionPosesion": "asset PerturbacionPosesion = Service, -, COMPRADOR, perturbacionPosesion, VENDEDOR;",
+        "JustoTemor": "asset JustoTemor = Service, -, COMPRADOR, justoTemor, VENDEDOR;",
+        "ConvenioContrario": "asset ConvenioContrario = Service, +, COMPRADOR, convenioContrario, VENDEDOR;"
+      },
+      "clauses": {
+        "MMCLXXIIIa": "clause MMCLXXIIIa = { CompraPlazo AND PerturbacionPosesion, CR(SuspenderPago)};",
+        "MMCLXXIIIb": "clause MMCLXXIIIb = { CompraPlazo AND PerturbacionPosesion, CR(SuspenderPago)};",
+        "MMCLXXIIIc": "clause MMCLXXIIIc = { CompraPlazo AND PerturbacionPosesion, CR(AsegurarPosesion)};",
+        "MMCLXXIIId": "clause MMCLXXIIId = { CompraPlazo, CR(CompraVenta)};",
+        "MMCLXXIIIe": "clause MMCLXXIIIe = { CompraEspera,CR(CompraVenta)};",
+        "MMCLXXIIIf": "clause MMCLXXIIIf = { CompraEspera AND JustoTemor, CR(AsegurarPosesion)};"
+      }
+    },
+    {
+      "article_number": "2190;",
+      "original": "El contrato de compraventa no requiere para su validez formalidad alguna especial, sino cuando recae sobre un inmueble.;",
+      "strings": {
+        "formalizarContrato": "\"formalice el contrato de compraventa\";"
+      },
+      "assets": {
+        "FormalizarContrato": "asset FormalizarContrato = Service, +, VENDEDOR, formalizarContrato, COMPRADOR;"
+      },
+      "clauses": {
+        "MMCXC": "clause MMCXC = {Compraventa AND CompraBienesRaices,CR(FormalizarContrato)};"
+      }
+    },
+    {
+      "article_number": "2191;",
+      "original": "La enajenación de bienes inmuebles cuyo valor convencional no sea mayor de la cantidad que resulte de multiplicar por 10,000 el importe del valor diario de la Unidad de Medida y Actualización vigente y la constitución o transmisión de derechos reales estimados hasta la misma cantidad o que garanticen un crédito no mayor de dicha suma, podrán otorgarse en documento privado firmado por los contratantes ante dos testifos cuyas firmas se ratifiquen ante Notario, Juez o Registro Público. Los contratos por los que el Gobierno enajene terrenos o casas para la constitución del patrimonio familiar, para los trabajadores al servicio del Estado o para personas de escasos recursos económicos hasta por el valor de 10,000 veces el valor diario de la Unidad de Medida y Actualización Vigente, podrán otorgarse en documento privado sin los requisitos de testigos y ratificación de firmas. En los programas de regularización de la tenencia de la tierra que realice el Gobierno del Estado y los municipios sobre inmuebles de propiedad particular, cuyo valor no rebase el de la cantidad que resulte de multiplicar por 7,000 el importe del valor diario de la Unidad de Medida y Actualización vigente, los contratos que se celebren entre las partes, podrán otorgarse en las mismas condiciones a que se refiere el párrafo anterior.;",
+      "strings": {
+        "regularizacionTenencia": "\"programa de regularización de la tenencia de la tierra realizado por el Gobierno\";",
+        "otorgarDocumentoPrivado": "\"otorgar en documento privado firmado por los contratantes ante dos testigos y ratificado ante Notario, Juez o Registro Público\";",
+        "otorgarSinTestigos": "\"otorgar en documento privado sin requisitos de testigos y ratificación de firmas\";",
+        "valorMenorSieteMilUMA": "\"valor del inmueble no mayor a 7,000 veces el valor diario de la Unidad de Medida y Actualización vigente\";"
+      },
+      "assets": {
+        "RegularizacionTenencia": "asset RegularizacionTenencia = Property, NM, VENDEDOR, regularizacionTenencia, COMPRADOR;",
+        "OtorgarDocumentoPrivado": "asset OtorgarDocumentoPrivado = Service, +, VENDEDOR, otorgarDocumentoPrivado, COMPRADOR;",
+        "OtorgarSinTestigos": "asset OtorgarSinTestigos = Service, +, VENDEDOR, otorgarSinTestigos, COMPRADOR;",
+        "ValorMenorSieteMilUMA": "asset ValorMenorSieteMilUMA = Service, +, VENDEDOR, valorSieteMilUMA, COMPRADOR;"
+      },
+      "clauses": {
+        "MMCXCIa": "clause MMCXCIa = {FormalizarContrato,CR(OtorgarDocumentoPrivado)};",
+        "MMCXCIb": "clause MMCXCIb = {RegularizacionTenencia AND ValorMenorSieteMilUMA, PVG(OtorgarSinTestigos)};"
+      }
+    },
+    {
+      "article_number": "1747;",
+      "original": "El hecho de ofrecer al público objetos en determinado precio, obliga al dueño a sostener su ofrecimiento.;",
+      "strings": {
+        "ofrecer": "\"ofrecer objetos en determinado precio\";",
+        "sostener": "\"sostenga su ofrecimiento\";"
+      },
+      "assets": {
+        "Ofrecer": "asset Ofrecer = Service, +, OFERENTE, ofrecer, ACREEDOR;",
+        "Sostener": "asset Sostener = Service, +, OFERENTE, sostener, ACREEDOR;"
+      },
+      "clauses": {
+        "MDCCXLVII": "clause MDCCXLVII = {Ofrecer,CR(Sostener)};"
+      }
+    },
+    {
+      "article_number": "1748;",
+      "original": "El que por anuncios u ofrecimientos hechos al público se comprometa a alguna prestación en favor de quien llene determinada condición o desempeñe cierto servicio, contrae la obligación de cumplir lo prometido.;",
+      "strings": {
+        "condicion": "\"llene determinada condición\";",
+        "servicio": "\"desempeñe cierto servicio\";"
+      },
+      "assets": {
+        "Condicion": "asset Condicion = Service, +, ACREEDOR, condicion, OFERENTE;",
+        "Servicio": "asset Servicio = Service, +, ACREEDOR, servicio, OFERENTE;"
+      },
+      "clauses": {
+        "MDCCXLVIIIa": "clause MDCCXLVIIIa = {Condicion,CR(Sostener)};",
+        "MDCCXLVIIIb": "clause MDCCXLVIIIb = {Servicio,CR(Sostener)};"
+      }
+    },
+    {
+      "article_number": "1749;",
+      "original": "El que en los términos del artículo anterior ejecutare el servicio pedido o llenaare la condición señalada, podrá exigir el pago o la recompensa ofrecida.;",
+      "strings": {
+        "pago": "\"podrá exigir el pago\";",
+        "noPago": "\"no podrá exigir el pago\";",
+        "noRecompensa": "\"no podrá exigir la recompensa ofrecida\";",
+        "recompensa": "\"da la recompensa ofrecida\";"
+      },
+      "assets": {
+        "Pago": "asset Pago = Service, +, ACREEDOR, pago, OFERENTE;",
+        "NoPago": "asset NoPago = Service, -, ACREEDOR, noPago, OFERENTE;",
+        "Recompensa": "asset Recompensa = Service, +, OFERENTE, recompensa, ACREEDOR;",
+        "NoRecompensa": "asset NoRecompensa = Service, -, ACREEDOR, noRecompensa, OFERENTE;"
+      },
+      "clauses": {
+        "MDCCXLIXa": "clause MDCCXLIXa = {NoPago AND NoRecompensa,PVG(Servicio)};",
+        "MDCCXLIXb": "clause MDCCXLIXb = {NoPago AND NoRecompensa,PVG(Condicion)};"
+      }
+    },
+    {
+      "article_number": "1750;",
+      "original": "Antes de que esté prestado el servicio o cumplida la condición, podrá el promitente revocar su oferta, siempre que la revocación se haga con la misma publicidad que el ofrecimiento. En este caso, el que pruebe que ha hecho erogaciones para prestar el servicio o cumplir la condición por la que se había ofrecido recompensa, tiene derecho a que se le reembolse.;",
+      "strings": {
+        "antesCondicion": "\"aun no cumpla la condición\";",
+        "antesPrestado": "\"aun no preste el servicio\";",
+        "revocacion": "\"revoca su oferta, siempre que la revocación se haga con la misma publicidad que el ofrecimiento\";",
+        "erogaciones": "\"haga erogaciones para prestar el servicio\";",
+        "reembolse": "\"reembolse\";"
+      },
+      "assets": {
+        "AntesCondicion": "asset AntesCondicion = Service, +, ACREEDOR, antesCondicion, OFERENTE;",
+        "AntesPrestado": "asset AntesPrestado = Service, -, ACREEDOR, antesPrestado, OFERENTE;",
+        "Revocacion": "asset Revocacion = Service, +, ACREEDOR, revocacion, ACREEDOR;",
+        "Erogaciones": "asset Erogaciones = Service, +, ACREEDOR, erogaciones, OFERENTE;",
+        "Reembolso": "asset Reembolso = Service, +, OFERENTE, reembolse, ACREEDOR;"
+      },
+      "clauses": {
+        "MDCCLa": "clause MDCCLa = {AntesPrestado,PVG(Revocacion)};",
+        "MDCCLb": "clause MDCCLb = {AntesCondicion,PVG(Revocacion)};",
+        "MDCCLc": "clause MDCCLc = {Revocacion AND Erogaciones,CR(Reembolso)};"
+      }
+    },
+    {
+      "article_number": "1751;",
+      "original": "Si se hubiere señalado el plazo para la ejecución de la obra, no podrá revocar el promitente su ofrecimiento mientras no esté vencido el plazo.;",
+      "strings": {
+        "plazo": "\"señale el plazo para la ejecución de servicio\";",
+        "revocacionPlazo": "\"revoque su oferta, siempre que el plazo no expire\";"
+      },
+      "assets": {
+        "Plazo": "asset Plazo = Service, +, OFERENTE, plazo, ACREEDOR;",
+        "RevocacionPlazo": "asset RevocacionPlazo = Service, +, OFERENTE, revocacionPlazo, ACREEDOR;"
+      },
+      "clauses": {
+        "MDCCLI": "clause MDCCLI = {Plazo,PR(RevocacionPlazo)};"
+      }
+    },
+    {
+      "article_number": "1752;",
+      "original": "Si el acto señalado por el promitente fuere ejecutado por más de un individuo, tendrán derecho a la recompensa: I. Si la ejecución es simultánea, o varios llenan al mismo tiempo la condición, se repartirá la recompensa por partes iguales; II. Si la recompensa no fuere divisible, se sorteará entre los interesados.;",
+      "strings": {
+        "simultaneo": "\"desempeña el servicio simultáneamente con otros\";",
+        "proporcional": "\"dé la recompensa en parte proporcional\";",
+        "divisible": "\"pueda dividir la recompensa\";",
+        "noDivisible": "\"no pueda dividir la recompensa\";",
+        "sorteo": "\"sortee la recompensa\";"
+      },
+      "assets": {
+        "Simultaneo": "asset Simultaneo = Service, +, ACREEDOR, simultaneo, OFERENTE;",
+        "Proporcional": "asset Proporcional = Service, +, OFERENTE, proporcional, ACREEDOR;",
+        "Sorteo": "asset Sorteo = Service, +, OFERENTE, sorteo, ACREEDOR;",
+        "Divisible": "asset Divisible = Service, +, OFERENTE, divisible, ACREEDOR;",
+        "NoDivisible": "asset NoDivisible = Service, -, OFERENTE, noDivisible, ACREEDOR;"
+      },
+      "clauses": {
+        "MDCCLIIa": "clause MDCCLIIa = {Simultaneo AND Divisible,CR(Proporcional)};",
+        "MDCCLIIb": "clause MDCCLIIb = {Simultaneo AND NoDivisible,CR(Sorteo)};"
+      }
+    },
+    {
+      "article_number": "1754;",
+      "original": "En los concursos en que haya promesa de recompensa para los que llenaren ciertas condiciones, es requisito esencial que se fije plazo. El promitente tiene derecho de designar la persona que deba decidir a quién o quiénes de los concursantes se otorga la recompensa;",
+      "strings": {
+        "concurso": "\"ofrece objetos por medio de concurso\";",
+        "designaJuezConcurso": "\"designe a tercero como juez de concurso en la oferta\";",
+        "decideQuien": "\"reciba recompensa siempre que sea señalado\";"
+      },
+      "assets": {
+        "Concurso": "asset Concurso = Service, +, OFERENTE, concurso, ACREEDOR;",
+        "DesignaJuezConcurso": "asset DesignaJuezConcurso = Service, +, OFERENTE, designaJuezConcurso, ACREEDOR;",
+        "DecideQuien": "asset DecideQuien = Service, +, ACREEDOR, decideQuien, OFERENTE;"
+      },
+      "clauses": {
+        "MDCCLIV": "clause MDCCLIV = {Concurso AND DesignaJuezConcurso,CR(DecideQuien)};"
+      }
+    },
+    {
+      "article_number": "1755;",
+      "original": "En los contratos se pueden hacer estipulaciones en favor de tercero de acuerdo con lo siguiente: el tercero se hace adquirir a éste, salvo pacto en contrario, el derecho de exigir del promitente la prestación a que se ha obligado.;",
+      "strings": {
+        "beneficiario": "\"señala tercero como beneficiario frente\";",
+        "noPactoContrarioBeneficiario": "\"no pacta en contrario respecto de la estipulación a favor de tercero\";",
+        "beneficioTercero": "\"beneficia al tercero frente\";"
+      },
+      "assets": {
+        "Beneficiario": "asset Beneficiario = Service, +, OFERENTE, beneficiario, ACREEDOR;",
+        "NoPactoContrarioBeneficiario": "asset NoPactoContrarioBeneficiario = Service, -, OFERENTE, pactoContrarioBeneficiario, ACREEDOR;",
+        "BeneficioTercero": "asset BeneficioTercero = Service, +, OFERENTE, beneficioTercero, ACREEDOR;"
+      },
+      "clauses": {
+        "MDCCLV": "clause MDCCLV = {Beneficiario AND NoPactoContrarioBeneficiario,CR(BeneficioTercero)};"
+      }
+    },
+    {
+      "article_number": "1758;",
+      "original": "La estipulación puede ser revocada mientras que el tercero no haya manifestado su voluntad de querer aprovecharla. En tal caso, o cuando el tercero rehúse la prestación estipulada a su favor, el derecho se considera como no nacido.;",
+      "strings": {
+        "noManifiestaOferta": "\"no manifieste voluntad de aprovechar oferta\";",
+        "rechazaOferta": "\"rechace la oferta\";"
+      },
+      "assets": {
+        "NoManifiestaOferta": "asset NoManifiestaOferta = Service, -, ACREEDOR, noManifiestaOferta, OFERENTE;",
+        "RechazaOferta": "asset RechazaOferta = Service, +, ACREEDOR, rechazaOferta, OFERENTE;"
+      },
+      "clauses": {
+        "MDCCLVIIIa": "clause MDCCLVIIIa = {NoManifiestaOferta,PVG(Revocacion)};",
+        "MDCCLVIIIb": "clause MDCCLVIIIb = {RechazaOferta,PVG(Revocacion)};"
+      }
+    },
+    {
+      "article_number": "1759;",
+      "original": "El promitente podrá, salvo pacto en contrario, oponer al tercero las excepciones derivadas del contrato.;",
+      "strings": {
+        "oponerExcepciones": "\"oponer al tercero las excepciones hechas frente\";"
+      },
+      "assets": {
+        "OponerExcepciones": "asset OponerExcepciones = Service, +, OFERENTE, oponerExcepciones, ACREEDOR;"
+      },
+      "clauses": {
+        "MDCCLIX": "clause MDCCLIX = {Beneficiario AND NoPactoContrarioBeneficiario,PVG(OponerExcepciones)};"
+      }
+    },
+    {
+      "article_number": "2258",
+      "original": "El mutuo es un contrato por el cual el mutuante se obliga a transferir la propiedad de una suma de dinero o de otras fungibles al mutuario, quien se obliga a devolver otro tanto de la misma especie y calidad.",
+      "strings": {
+        "transferirPropiedadDinero": "\"transfiera la propiedad de una suma de dinero\";",
+        "devolverOtroTanto": "\"devuelva otro tanto de la misma especie y calidad\";"
+      },
+      "assets": {
+        "TransferirPropiedadDinero": "asset TransferirPropiedadDinero = Property, M, MUTUANTE, transferirPropiedadDinero, MUTUARIO;",
+        "DevolverOtroTanto": "asset DevolverOtroTanto = Property, M, MUTUARIO, devolverOtroTanto, MUTUANTE;"
+      },
+      "clauses": {
+        "MMCCLVIII": "clause MMCCLVIII = {TransferirPropiedadDinero,CR(DevolverOtroTanto)};"
+      }
+    },
+    {
+      "article_number": "2259",
+      "original": "Si en el contrato no se ha fijado plazo para la devolución de lo prestado, se observarán las reglas siguientes: I. Si el mutuario fuere labrador y el préstamo consistiere en cereales u otros productos del campo, la restitución se hará en la siguiente cosecha de los mismos o semejantes frutos o productos.",
+      "strings": {
+        "noFijePlazo": "\"no fije plazo para lo devolución de lo prestado\";",
+        "prestamoCereales": "\"preste cereales u otros productos del campo\";",
+        "restitucionSiguienteCosecha": "\"restituya el prestamo en la siguiente cosecha de mismos o semejantes productos\";"
+      },
+      "assets": {
+        "NoFijePlazo": "asset NoFijePlazo = Service, -, MUTUANTE, noFijePlazo, MUTUARIO;",
+        "PrestamoCereales": "asset PrestamoCereales = Property, M, MUTUANTE, prestamoCereales, MUTUARIO;",
+        "RestitucionSiguienteCosecha": "asset RestitucionSiguienteCosecha = Property, M, MUTUANTE, restitucionSiguienteCosecha, MUTUARIO;"
+      },
+      "clauses": {
+        "MMCCLIX": "clause MMCCLIX = {NoFijePlazo AND PrestamoCereales,CR(RestitucionSiguienteCosecha)};"
+      }
+    },
+    {
+      "article_number": "2261",
+      "original": "Cuando no se ha señalado lugar, se observarán las reglas siguientes: I. La cosa prestada se entregará en el lugar donde se encuentre. II La restitución se hará si el préstamo consiste en efectos, en el lugar donde se recibieron. Si consiste en dinero, en el domicilio del deudor.",
+      "strings": {
+        "noSeñale": "\"no señale el lugar de restitución\";",
+        "entregarDondeEncuentre": "\"entregue la cosa prestada donde se encuentre\";",
+        "entregarDondeRecibio": "\"entregue la cosa donde se recibió\";",
+        "entregarDomicilioDeudor": "\"entregue la cosa en el domicilio del deudor\";",
+        "prestamoConsisteEfectos": "\"pacte el préstamo en efectos\";",
+        "prestamoConsisteDinero": "\"pacte el préstamo en dinero\";"
+      },
+      "assets": {
+        "NoSeñale": "asset NoSeñale = Service, -, MUTUANTE, noSeñale, MUTUARIO;",
+        "EntregarDondeEncuentre": "asset EntregarDondeEncuentre = Property, M, MUTUARIO, entregarDondeEncuentre, MUTUANTE;",
+        "EntregarDondeRecibio": "asset EntregarDondeRecibio = Property, M, MUTUARIO, entregarDondeRecibio, MUTUANTE;",
+        "EntregarDomicilioDeudor": "asset EntregarDomicilioDeudor = Property, M, MUTUARIO, entregarDomicilioDeudor, MUTUANTE;",
+        "PrestamoConsisteEfectos": "asset PrestamoConsisteEfectos = Property, M, MUTUANTE, prestamoConsisteEfectos, MUTUARIO;",
+        "PrestamoConsisteDinero": "asset PrestamoConsisteDinero = Property, M, MUTUANTE, prestamoConsisteDinero, MUTUARIO;"
+      },
+      "clauses": {
+        "MMCCLXI": "clause MMCCLXI = {NoSeñale AND PrestamoConsisteEfectos,CR(EntregarDondeRecibio)};",
+        "MMCCLXIb": "clause MMCCLXIb = {NoSeñale AND PrestamoConsisteDinero,CR(EntregarDomicilioDeudor)};",
+        "MMCCLXIc": "clause MMCCLXIc = {NoSeñale,PVG(EntregarDondeEncuentre)};"
+      }
+    },
+    {
+      "article_number": "436",
+      "original": "Los que ejercen la patria potestad no podrán celebrar contratos de arrendamiento por más de cinco años, ni recibir la renta anticipada por más de dos años.",
+      "strings": {
+        "patriaPotestad": "\"ejerce la patria potestad frente\";",
+        "pagoDosAnos": "\"paga dos años por adelantado\";",
+        "arrendamientoCincoAnos": "\"arrienda por más de cinco años\";"
+      },
+      "assets": {
+        "PatriaPotestad": "asset PatriaPotestad = Service, +, ARRENDADOR, patriaPotestad, PROPIETARIO;",
+        "ArrendamientoCincoAnos": "asset ArrendamientoCincoAnos = Service, +, ARRENDADOR, arrendamientoCincoAnos, ARRENDATARIO;",
+        "PagoDosAnos": "asset PagoDosAnos = Service, +, ARRENDADOR, pagoDosAnos, ARRENDATARIO;"
+      },
+      "clauses": {
+        "CDXXXVI": "clause CDXXXVI = {PatriaPotestad,PR(ArrendamientoCincoAnos)};",
+        "CDXXXVIb": "clause CDXXXVIb = {PatriaPotestad,PR(PagoDosAnos)};"
+      }
+    },
+    {
+      "article_number": "2272",
+      "original": "Hay arrendamiento cuando las dos partes contratantes se obligan recíprocamente, una, a conceder el uso o goce temporal de una cosa, y la otra, a pagar por ese uso o goce un precio cierto.",
+      "strings": {
+        "usar": "\"usar o gocer propiedad frente\";",
+        "pagarRenta": "\"pagar renta\";",
+        "arrendar": "\"arrienda propiedad\";"
+      },
+      "assets": {
+        "Uso": "asset Uso = Service, +, ARRENDATARIO, usar, ARRENDADOR;",
+        "PagoRenta": "asset PagoRenta = Property, M, ARRENDADOR, arrendar, ARRENDATARIO;",
+        "Arrendamiento": "asset Arrendamiento = Service, +, ARRENDADOR, arrendar, ARRENDATARIO;"
+      },
+      "clauses": {
+        "MMCCLXXII": "clause MMCCLXXII = {Uso AND PagoRenta,CR(Arrendamiento)};"
+      }
+    },
+    {
+      "article_number": "2275",
+      "original": "El que ejerza la tutela frente al dueño de la cosa podrá arrendarla de acuerdo a las disposiciones de la Ley.",
+      "strings": {
+        "tutela": "\"ejerza la tutela frente\";"
+      },
+      "assets": {
+        "Tutela": "asset Tutela = Service, +, ARRENDADOR, tutela, PROPIETARIO;"
+      },
+      "clauses": {
+        "MMCCLXXV": "clause MMCCLXXV = {Tutela,CR(Arrendamiento)};"
+      }
+    },
+    {
+      "article_number": "2273",
+      "original": "La renta o precio del arrendamiento, puede consistir en una suma de dinero o en cualquier otra cosa equivalente con tal que sea cierta y determinada.",
+      "strings": {
+        "pagoDinero": "\"pague la renta en dinero\";",
+        "pagoEquivalente": "\"pague la renta en equivalente a dinero\";"
+      },
+      "assets": {
+        "PagoDinero": "asset PagoDinero = Property, M, ARRENDADOR, pagoDinero, ARRENDATARIO;",
+        "PagoEquivalente": "asset PagoEquivalente = Property, M, ARRENDADOR, pagoEquivalente, ARRENDATARIO;"
+      },
+      "clauses": {
+        "MMCCLXXIII": "clause MMCCLXXIII = {PagoRenta,CR(PagoDinero)};",
+        "MMCCLXXIIIb": "clause MMCCLXXIIIb = {PagoRenta,CR(PagoEquivalente)};"
+      }
+    },
+    {
+      "article_number": "2275 BIS",
+      "original": "El que ejerza la patria potestad frente al dueño, podrá arrendarla de acuerdo a las disposiciones de la Ley.",
+      "strings": {
+        "patriaPotestad": "\"ejerce la patria potestad frente\";"
+      },
+      "assets": {
+        "PatriaPotestad": "asset  = Service, +, PROPIETARIO, patriaPotestad, ARRENDADOR;"
+      },
+      "clauses": {
+        "MMCCLXXVb": "clause MMCCLXXVb = {PatriaPotestad,PVG(Arrendamiento)};"
+      }
+    },
+    {
+      "article_number": "573",
+      "original": "El tutor no puede dar en arrendamiento los bienes del incapacitado por más de cinco años ni podrá recibir anticipación de renta o alquileres por más de dos años.",
+      "strings": {
+        "tutela": "\"ejerza la tutela frente\";"
+      },
+      "assets": {
+        "Tutela": "asset Tutela = Service, +, PROPIETARIO, tutela, ARRENDADOR;"
+      },
+      "clauses": {
+        "DLXXIII": "clause DLXXIII = {Tutela,PR(ArrendamientoCincoAnos)};",
+        "DLXXIIIb": "clause DLXXIIIb = {Tutela,PR(PagoDosAnos)};"
+      }
+    },
+    {
+      "article_number": "2272",
+      "original": "El arrendamiento no puede exceder de veinte años para las fincas destinadas al comercio o a la industria",
+      "strings": {
+        "arrendamientoComercial": "\"celebre arrendamiento comercial frente\";",
+        "arrendamientoIndustrial": "\"celebre arrendamiento industrial frente\";",
+        "arrendamientoMasVeinteAnos": "\"celebre arrendamiento por más de veinte años\";"
+      },
+      "assets": {
+        "ArrendamientoComercial": "asset ArrendamientoComercial = Service, +, ARRENDADOR, arrendamientoComercial, ARRENDATARIO;",
+        "ArrendamientoIndustrial": "asset ArrendamientoIndustrial = Service, +, ARRENDADOR, arrendamientoIndustrial, ARRENDATARIO;",
+        "ArrendamientoMasVeinteAnos": "asset ArrendamientoMasVeinteAnos = Service, +, ARRENDADOR, arrendamientoMasVeinteAnos, ARRENDATARIO;"
+      },
+      "clauses": {
+        "MMCCLXXIIb": "clause MMCCLXXIIb = {ArrendamientoComercial,PR(ArrendamientoMasVeinteAnos)};",
+        "MMCCLXXIIc": "clause MMCCLXXIIc = {ArrendamientoIndustrial,PR(ArrendamientoMasVeinteAnos)};"
+      }
+    },
+    {
+      "article_number": "2352",
+      "original": "Todos los arrendamientos que no se hayan celebrado por tiempo determinado, concluirán a voluntad de cualquiera de las partes contratantes.",
+      "strings": {
+        "duracionIndeterminada": "\"celebre arrendamiento con duración indeterminada\";",
+        "terminacionArrendamientoVoluntad": "\"termine el arrendamiento a voluntad frente\";"
+      },
+      "assets": {
+        "DuracionIndeterminada": "asset DuracionIndeterminada = Service, +, ARRENDADOR, duracionIndeterminada, ARRENDATARIO;",
+        "TerminacionArrendamientoVoluntad": "asset TerminacionArrendamientoVoluntad = Service, +, ARRENDADOR, terminacionArrendamientoVoluntad, ARRENDATARIO;"
+      },
+      "clauses": {
+        "MMCCCLII": "clause MMCCCLII = {DuracionIndeterminada,PVG(TerminacionArrendamientoVoluntad)};"
+      }
+    },
+    {
+      "article_number": "2282",
+      "original": "El contrato de arrendamiento no se rescinde por la muerte del arrendador ni del arrendatario.",
+      "strings": {
+        "persistirTrasMuerteArrendador": "\"persista el arrendamiento ante muerte del arrendador\";",
+        "persistirTrasMuerteArrendatario": "\"persista el arrendamiento ante muerte del arrendatario\";"
+      },
+      "assets": {
+        "PersistirTrasMuerteArrendador": "asset PersistirTrasMuerte = Service, +, ARRENDATARIO, persistirTrasMuerteArrendador, ARRENDADOR;",
+        "PersistirTrasMuerteArrendatario": "asset PersistirTrasMuerteArrendatario = Service, +, ARRENDADOR, persistirTrasMuerteArrendatario, ARRENDATARIO;"
+      },
+      "clauses": {
+        "MMCCLXXXIIa": "clause MMCCLXXXIIa = {Arrendamiento,CR(PersistirTrasMuerteArrendador)};",
+        "MMCCLXXXIIb": "clause MMCCLXXXIIb = {Arrendamiento,CR(PersistirTrasMuerteArrendatario)};"
+      }
+    },
+    {
+      "article_number": "2283",
+      "original": "Si durante la vigencia del contrato de arrendamiento, se verificare la transmisión de la propiedad del predio arrendado, el arrendamiento subsistirá en los términos del contrato. En este caso, se debe notificar al arrendatario la transmisión de propiedad.",
+      "strings": {
+        "ventaPropiedad": "\"venda a tercero la propiedad en arrendamiento frente\";",
+        "notificacionArrendatario": "\"notifique la venta\";"
+      },
+      "assets": {
+        "VentaPropiedad": "asset VentaPropiedad = Property, NM, PROPIETARIO, ventaPropiedad, ARRENDADOR;",
+        "NotificaciónArrendatario": "asset NotificaciónArrendatario = Service, +, ARRENDATARIO, notificacionArrendatario, ARRENDADOR;"
+      },
+      "clauses": {
+        "MMCCLXXXIIIa": "clause MMCCLXXXIIIa = {VentaPropiedad,CR(NotificaciónArrendatario)};",
+        "MMCCLXXXIIIb": "clause MMCCLXXXIIIb = {VentaPropiedad,CR(Arrendamiento)};"
+      }
+    },
+    {
+      "article_number": "2319",
+      "original": "El arrendatario que por causa de reparaciones pierda el uso total o parcial de la cosa, tiene derecho a no pagar el precio del arrendamiento o a pedir la reducción de ese precio.",
+      "strings": {
+        "reparacion": "\"repare la cosa\";",
+        "perdidaParcial": "\"pierda el uso parcial de la cosa\";",
+        "perdidaTotal": "\"pierda el uso total de la cosa\";",
+        "disminucionRenta": "\"disminuya la renta\";"
+      },
+      "assets": {
+        "Reparacion": "asset ReparacionMenor = Service, +, ARRENDATARIO, reparacion, ARRENDADOR;",
+        "PerdidaParcial": "asset PerdidaParcial = Service, +, ARRENDADOR, perdidaParcial, ARRENDATARIO;",
+        "PerdidaTotal": "asset PerdidaTotal = Service, +, ARRENDATARIO, perdidaTotal, ARRENDADOR;",
+        "DisminucionRenta": "asset DisminucionRenta = Property, M, ARRENDATARIO, disminucionRenta, ARRENDADOR;"
+      },
+      "clauses": {
+        "MMCCCXIXa": "clause MMCCCXIXa = {Reparacion AND PerdidaParcial,CR(DisminucionRenta)};",
+        "MMCCCXIXb": "clause MMCCCXIXb = {Reparacion AND PerdidaTotal,CR(DisminucionRenta)}"
+      }
+    },
+    {
+      "article_number": "2448J",
+      "original": "En caso de que el propietario del inmueble arrendado decida enajenarlo, el o los arrendatarios siempre que estén al corriente en el pago de sus rentas tendrán derecho a ser preferidos a cualquier tercero.",
+      "strings": {
+        "compraPropiedad": "\"compre la propiedad a enajenar si está al corriente en pago de renta\";"
+      },
+      "assets": {
+        "CompraPropiedad": "asset CompraPropiedad = Service, +, ARRENDATARIO, compraPropiedad, ARRENDADOR;"
+      },
+      "clauses": {
+        "MMCDXLVIII": "clause MMCDXLVIII = {VentaPropiedad,CR(CompraPropiedad)};"
+      }
+    },
+    {
+      "article_number": "2398",
+      "original": "El arrendamiento de inmuebles destinados a casa habitación no podrá ser menor a un año.",
+      "strings": {
+        "arrendamientoCasaHabitacion": "\"celebre arrendamiento de casa habitación\"",
+        "arrendamientoMenorUnAno": "\"celebre el arrendamiento por menos de un año\";"
+      },
+      "assets": {
+        "ArrendamientoCasaHabitacion": "asset ArrendamientoCasaHabitacion = Service, +, ARRENDADOR, arrendamientoCasaHabitacion, ARRENDATARIO;",
+        "ArrendamientoMenorUnAno": "asset ArrendamientoMenorUnAno = Service, +, ARRENDADOR, arrendamientoMenorUnAno, ARRENDATARIO;"
+      },
+      "clauses": {
+        "MMCCCXCVIII": "clause MMCCCXCVIII = {ArrendamientoCasaHabitacion,PR(ArrendamientoMenorUnAno)};"
+      }
+    },
+    {
+      "article_number": "Cláusula 1",
+      "original": "Apertura. \"EL PRESTADOR\" abre la PARTE ACREDITADA, un CRÉDITO SIMPLE CON GARANTÍA FIDUCIARIA Y GARANTIA PRENDARIA hasta por la cantidad $1,600,000.00 M.N.",
+      "strings": {
+        "otorgar_credito": "\"otorga un crédito simple con garantía fiduciaria y prendaria por $1,600,000.00 M.N.\";",
+        "disponer_credito": "\"dispone del crédito otorgado\";"
+      },
+      "assets": {
+        "CreditoOtorgado": "asset CreditoOtorgado = Service, +, PRESTADOR, otorgar_credito, ACREDITADO;",
+        "CreditoDispuesto": "asset CreditoDispuesto = Service, +, ACREDITADO, disponer_credito, PRESTADOR;"
+      },
+      "clauses": {
+        "I": "clause I = {CreditoOtorgado,PVG(CreditoDispuesto)};"
+      }
+    },
+    {
+      "article_number": "Cláusula 2",
+      "original": "Destino. LA PARTE ACREDITADA se obliga a invertir el importe de las disposiciones del Crédito, precisamente para los fines señalados en la DECLARACIÓN SEGUNDA numeral 2.7 (dos punto siete) de este contrato.",
+      "strings": {
+        "invertir_credito": "\"invierte el importe de las disposiciones del crédito en los fines señalados\";"
+      },
+      "assets": {
+        "CreditoDispuesto": "asset CreditoDispuesto = Service, +, DEUDOR, disponer_credito, ACREEDOR;",
+        "InversionRealizada": "asset InversionRealizada = Service, +, DEUDOR, invertir_credito, ACREEDOR;"
+      },
+      "clauses": {
+        "II": "clause II = {CreditoDispuesto,OB(InversionRealizada)};"
+      }
+    },
+    {
+      "article_number": "Cláusula 3",
+      "original": "Disposición. LA PARTE ACREDITADA podrá disponer del importe del Crédito a  partir de que el presente instrumento quede inscrito en la oficina registradora del Registro Público de la Propiedad y de Comercio que le corresponda y/o Registro Único de Garantías Mobiliarias.",
+      "strings": {
+        "disponer_credito": "\"dispone del crédito otorgado\";",
+        "registrar_contrato": "\"registra el contrato en el Registro Público correspondiente\";"
+      },
+      "assets": {
+        "CreditoOtorgado": "asset CreditoOtorgado = Service, +, ACREEDOR, otorgar_credito, DEUDOR;",
+        "CreditoDispuesto": "asset CreditoDispuesto = Service, +, DEUDOR, disponer_credito, ACREEDOR;",
+        "ContratoRegistrado": "asset ContratoRegistrado = Service, +, DEUDOR, registrar_contrato, ACREEDOR;"
+      },
+      "clauses": {
+        "III": "clause III = {CreditoOtorgado AND ContratoRegistrado,PVG(CreditoDispuesto)};"
+      }
+    },
+    {
+      "article_number": "Cláusula 4",
+      "original": "Comprobación. A partir de la disposición respectiva, LA PARTE ACREDITADA entregará a \"PRESTADOR\" los comprobantes de las inversiones hechas en un plazo que no debe exceder de 45 (cuarenta y cinco) días naturales contados a partir de la disposición del Crédito.",
+      "strings": {
+        "comprobar_inversion": "\"entrega comprobantes de las inversiones realizadas en un plazo de 45 días naturales\";"
+      },
+      "assets": {
+        "CreditoDispuesto": "asset CreditoDispuesto = Service, +, ACREDITADO, disponer_credito, PRESTADOR;",
+        "InversionComprobada": "asset InversionComprobada = Service, +, ACREDITADO, comprobar_inversion, PRESTADOR;"
+      },
+      "clauses": {
+        "IV": "clause IV = {CreditoDispuesto,OB(InversionComprobada)};"
+      }
+    },
+    {
+      "article_number": "Cláusula 5",
+      "original": "Descuento. LA PARTE ACREDITADA faculta de manera expresa a \"PRESTADOR\" para ceder, descontar o negociar con las entidades a que se refiere la declaración 2.8 (dos punto ocho) y 2.9 (dos punto nueve) de este instrumento, el presente crédito y/o los pagarés que representen las disposiciones del mismo.",
+      "strings": {
+        "ceder_credito": "\"cede, descuenta o negocia el crédito con otras entidades\";"
+      },
+      "assets": {
+        "CreditoOtorgado": "asset CreditoOtorgado = Service, +, PRESTADOR, otorgar_credito, ACREDITADO;",
+        "CreditoCedido": "asset CreditoCedido = Service, +, PRESTADOR, ceder_credito, ACREDITADO;"
+      },
+      "clauses": {
+        "V": "clause V = {CreditoOtorgado,PVG(CreditoCedido)};"
+      }
+    },
+    {
+      "article_number": "Cláusula 6",
+      "original": "Tasas De Interés. - LA PARTE ACREDITADA se obliga a pagar a PRESTADOR sin necesidad de previo requerimiento: a) Tasa de intereses ordinarios. LA PARTE ACREDITADA se obliga a pagar a PRESTADOR, durante la vigencia del presente contrato, intereses ordinarios sobre el capital insoluto del crédito, que se calcularán a una tasa anualizada que acuerden las partes de manera previa para cada una de las disposiciones del crédito, en el entendido de que será sobre una tasa variable determinada con base en la Tasa TIIE y/o TIIE FONDEO, a la cual se le adicionarán los puntos porcentuales que PRESTADOR le dé a conocer de manera previa a la disposición de que se trate, o la tasa que se pacte como fija. b) Tasa Moratoria. LA PARTE ACREDITADA se obliga a pagar a PRESTADOR intereses moratorios sobre el importe de las amortizaciones vencidas y no pagadas del crédito, desde el día inmediato siguiente a su vencimiento y hasta el día en que queden total y completamente cubiertas, mismos que se calcularán multiplicando la tasa de intereses ordinarios calculada en términos del inciso que antecede por 2.0 (DOS PUNTO CERO) veces.",
+      "strings": {
+        "pagar_intereses_ordinarios": "\"pague intereses ordinarios sobre el crédito\";",
+        "pagar_intereses_moratorios": "\"pague intereses moratorios sobre el crédito\";",
+        "calcular_intereses_ordinarios": "\"calcule intereses ordinarios basados en la Tasa TIIE\";",
+        "calcular_intereses_moratorios": "\"calcula intereses moratorios como 2.0 veces la tasa de intereses ordinarios\";",
+        "pago_atrasado": "\"se atrase en el pago del crédito\";"
+      },
+      "assets": {
+        "CreditoDispuesto": "asset CreditoDispuesto = Service, +, ACREDITADO, disponer_credito, PRESTADOR;",
+        "InteresesOrdinariosPagados": "asset InteresesOrdinariosPagados = Service, +, ACREDITADO, pagar_intereses_ordinarios, PRESTADOR;",
+        "InteresesMoratoriosPagados": "asset InteresesMoratoriosPagados = Service, +, ACREDITADO, pagar_intereses_moratorios, PRESTADOR;",
+        "InteresesOrdinariosCalculados": "asset InteresesOrdinariosCalculados = Service, +, PRESTADOR, calcular_intereses_ordinarios, ACREDITADO;",
+        "InteresesMoratoriosCalculados": "asset InteresesMoratoriosCalculados = Service, +, PRESTADOR, calcular_intereses_ordinarios, ACREDITADO;",
+        "PagoAtrasado": "asset PagoAtrasado = Service, -, PRESTADOR, pago_atrasado, ACREDITADO;"
+      },
+      "clauses": {
+        "VIa": "clause VIa = {CreditoDispuesto,OB(InteresesOrdinariosCalculados)};",
+        "VIb": "clause VIb = {CreditoDispuesto,OB(InteresesOrdinariosPagados)};",
+        "VIc": "clause VIc = {CreditoDispuesto AND PagoAtrasado, OB(InteresesMoratoriosCalculados)};",
+        "VId": "clause VId = {CreditoDispuesto AND PagoAtrasado, OB(InteresesMoratoriosCalculados)};"
+      }
+    },
+      {
+    "article_number": "Cláusula 24",
+    "original": "VIGÉSIMA CUARTA. - Reglas particulares de ejecución. En caso de incumplimiento de las obligaciones a cargo de LA PARTE ACREDITADO, las partes convienen en que:\nA. En caso de embargo, \"PRESTADOR\" no se sujetará al orden establecido en los artículos 1395 del Código de Comercio y 436 del Código Federal de Procedimientos Civiles, según lo autorizan la fracción I del artículo 439 de dicho código adjetivo y con fundamento en los artículos 1063 y 1393 del Código de Comercio.",
+    "strings": {
+      "incumplir_obligaciones": "\"incumple las obligaciones del contrato\";",
+      "ejecutar_garantias": "\"ejecuta las garantías en caso de incumplimiento\";",
+      "no_sujetarse_orden_embargo": "\"no se sujeta al orden establecido en los artículos 1395 del Código de Comercio y 436 del Código Federal de Procedimientos Civiles\";",
+      "ejecutar_extrajudicialmente": "\"ejecuta las garantías mediante procedimiento extrajudicial\";",
+      "nombrar_depositario": "\"nombra un depositario para los bienes en garantía\";"
+    },
+    "assets": {
+      "IncumplimientoObligaciones": "asset IncumplimientoObligaciones = Service, +, ACREDITADO, incumplir_obligaciones, PRESTADOR;",
+      "GarantiasEjecutadas": "asset GarantiasEjecutadas = Service, +, PRESTADOR, ejecutar_garantias, ACREDITADO;",
+      "NoSujetarseOrdenEmbargo": "asset NoSujetarseOrdenEmbargo = Service, +, PRESTADOR, no_sujetarse_orden_embargo, null;",
+      "EjecucionExtrajudicial": "asset EjecucionExtrajudicial = Service, +, PRESTADOR, ejecutar_extrajudicialmente, ACREDITADO;",
+      "DepositarioNombrado": "asset DepositarioNombrado = Service, +, PRESTADOR, nombrar_depositario, ACREDITADO;"
+    },
+    "clauses": {
+      "vigesima_cuarta_a": "clause vigesima_cuarta_a = { IncumplimientoObligaciones, PVG(GarantiasEjecutadas) };",
+      "vigesima_cuarta_b": "clause vigesima_cuarta_b = { GarantiasEjecutadas, PVG(NoSujetarseOrdenEmbargo) CITING \"Artículos 1395, 1063 y 1393 del Código de Comercio, y 436 y 439 del Código Federal de Procedimientos Civiles\"; };",
+      "vigesima_cuarta_c": "clause vigesima_cuarta_c = { GarantiasEjecutadas, PVG(EjecucionExtrajudicial) };",
+      "vigesima_cuarta_d": "clause vigesima_cuarta_d = { GarantiasEjecutadas, PVG(DepositarioNombrado) };"
+    }
+  },
+  {
+    "article_number": "Cláusula 26",
+    "original": "VIGÉSIMA SEXTA. - Domicilios Convencionales y Correos Electrónicos.\n1) Las partes señalan como sus respectivos domicilios para los efectos del presente contrato los siguientes:\nA).- PRESTADOR sito en: [...]\nB).- LA PARTE ACREDITADO, EL GARANTE FIDUCIARIO Y EL GARANTE PRENDARIO sito en: [...]\nC).- EL FIDUCIARIO sito en: [...]\n2) Para el envío de avisos de pago y para cualquier otra comunicación o aviso relacionado con el presente contrato, las partes señalan como su dirección de correo electrónico las siguientes: [...]",
+    "strings": {
+      "senalar_domicilio": "\"señala su domicilio para efectos del contrato\";",
+      "proporcionar_correo": "\"proporciona su dirección de correo electrónico para comunicaciones\";"
+    },
+    "assets": {
+      "CreditoOtorgado": "asset CreditoOtorgado = Service, +, PRESTADOR, otorgar_credito, ACREDITADO;",
+      "DomicilioPrestadorSenalado": "asset DomicilioPrestadorSenalado = Service, +, PRESTADOR, senalar_domicilio, null;",
+      "DomicilioACREDITADOSenalado": "asset DomicilioACREDITADOSenalado = Service, +, ACREDITADO, senalar_domicilio, null;",
+      "DomicilioFiduciarioSenalado": "asset DomicilioFiduciarioSenalado = Service, +, GARANTE_FIDUCIARIO, senalar_domicilio, null;",
+      "CorreoPrestadorProporcionado": "asset CorreoPrestadorProporcionado = Service, +, PRESTADOR, proporcionar_correo, null;",
+      "CorreoACREDITADOProporcionado": "asset CorreoACREDITADOProporcionado = Service, +, ACREDITADO, proporcionar_correo, null;",
+      "CorreoFiduciarioProporcionado": "asset CorreoFiduciarioProporcionado = Service, +, GARANTE_FIDUCIARIO, proporcionar_correo, null;"
+    },
+    "clauses": {
+      "vigesima_sexta_a": "clause vigesima_sexta_a = { CreditoOtorgado, OB(DomicilioPrestadorSenalado) };",
+      "vigesima_sexta_b": "clause vigesima_sexta_b = { CreditoOtorgado, OB(DomicilioACREDITADOSenalado) };",
+      "vigesima_sexta_c": "clause vigesima_sexta_c = { CreditoOtorgado, OB(DomicilioFiduciarioSenalado) };",
+      "vigesima_sexta_d": "clause vigesima_sexta_d = { CreditoOtorgado, OB(CorreoPrestadorProporcionado) };",
+      "vigesima_sexta_e": "clause vigesima_sexta_e = { CreditoOtorgado, OB(CorreoACREDITADOProporcionado) };",
+      "vigesima_sexta_f": "clause vigesima_sexta_f = { CreditoOtorgado, OB(CorreoFiduciarioProporcionado) };"
+    }
+  },
+  {
+    "article_number": "Cláusula 27",
+    "original": "VIGÉSIMA SÉPTIMA. - Cesión de Derechos. \"LA PARTE ACREDITADO\" faculta y autoriza de manera expresa a \"PRESTADOR\" para transmitir, endosar, ceder, descontar, o en cualquier otra forma negociar parcial o totalmente los contratos y los pagarés que representen las disposiciones del crédito aun antes de su vencimiento y manifiesta \"LA PARTE ACREDITADO\" su voluntad que reconocerá ampliamente a los nuevos poseedores de los derechos antes mencionados como endosatarios o cesionarios sobre los mismos derechos que corresponden a \"PRESTADOR\".\n\"LA PARTE ACREDITADO\" no podrá ceder los derechos y obligaciones que le corresponden, en virtud de este contrato, sin el consentimiento previo y por escrito de \"PRESTADOR\".",
+    "strings": {
+      "autorizar_cesion_derechos": "\"autoriza la cesión de derechos del crédito\";",
+      "ceder_derechos": "\"cede, endosa o negocia los derechos del crédito\";",
+      "prohibir_cesion_sin_consentimiento": "\"prohíbe ceder derechos sin consentimiento\";"
+    },
+    "assets": {
+      "CreditoOtorgado": "asset CreditoOtorgado = Service, +, PRESTADOR, otorgar_credito, ACREDITADO;",
+      "CesionAutorizada": "asset CesionAutorizada = Service, +, PRESTADOR, ceder_derechos, null;",
+      "CesionProhibida": "asset CesionProhibida = Service, +, ACREDITADO, ceder_derechos, null;"
+    },
+    "clauses": {
+      "vigesima_septima_a": "clause vigesima_septima_a = { CreditoOtorgado, PVG(CesionAutorizada) };",
+      "vigesima_septima_b": "clause vigesima_septima_b = { CreditoOtorgado, PR(CesionProhibida) };"
+    }
+  },
+  {
+    "article_number": "Cláusula 28",
+    "original": "VIGÉSIMA OCTAVA. - Tribunales Competentes. Para la interpretación y cumplimiento de cualquiera de las obligaciones contraídas en este contrato, las partes se someten a la competencia de los Tribunales de la Ciudad de México o de la Ciudad de Mexicali o de la Ciudad de Ensenada, estas últimas dos del Estado de Baja California, a elección de PRESTADOR, y renuncian expresamente a cualquiera otra que pudiera corresponderles en razón del fuero de su domicilio presente o futuro.",
+    "strings": {
+      "someterse_tribunales": "\"se somete a la competencia de los tribunales especificados\";",
+      "elegir_tribunal": "\"elige el tribunal competente\";",
+      "renunciar_fuero": "\"renuncia a cualquier otro fuero\";"
+    },
+    "assets": {
+      "CreditoOtorgado": "asset CreditoOtorgado = Service, +, PRESTADOR, otorgar_credito, ACREDITADO;",
+      "TribunalesCompetentes": "asset TribunalesCompetentes = Service, +, ALL_PARTIES, someterse_tribunales, null;",
+      "EleccionTribunal": "asset EleccionTribunal = Service, +, PRESTADOR, elegir_tribunal, null;",
+      "FueroRenunciado": "asset FueroRenunciado = Service, +, ALL_PARTIES, renunciar_fuero, null;"
+    },
+    "clauses": {
+      "vigesima_octava_a": "clause vigesima_octava_a = { CreditoOtorgado, OB(TribunalesCompetentes) };",
+      "vigesima_octava_b": "clause vigesima_octava_b = { CreditoOtorgado, PVG(EleccionTribunal) };",
+      "vigesima_octava_c": "clause vigesima_octava_c = { CreditoOtorgado, OB(FueroRenunciado) };"
+    }
+  },
+  {
+    "article_number": "Cláusula 29",
+    "original": "VIGÉSIMA NOVENA. - Subtítulos. Los subtítulos en este contrato son exclusivamente por conveniencia de las partes y para mera referencia, por lo que no se considerarán para efectos de interpretación o cumplimiento del mismo.",
+    "strings": {
+      "interpretar_sin_subtitulos": "\"interpreta el contrato sin considerar los subtítulos\";"
+    },
+    "assets": {
+      "CreditoOtorgado": "asset CreditoOtorgado = Service, +, PRESTADOR, otorgar_credito, ACREDITADO;",
+      "InterpretacionSinSubtitulos": "asset InterpretacionSinSubtitulos = Service, +, ALL_PARTIES, interpretar_sin_subtitulos, null;"
+    },
+    "clauses": {
+      "vigesima_novena": "clause vigesima_novena = { CreditoOtorgado, OB(InterpretacionSinSubtitulos) };"
+    }
+  },
+  {
+    "article_number": "Cláusula 30",
+    "original": "TRIGÉSIMA. - Modificaciones. Este contrato sólo podrá ser modificado o adicionado mediante acuerdo por escrito entre \"PRESTADOR\", LA PARTE ACREDITADO, EL GARANTE FIDUCIARIO Y EL GARANTE PRENDARIO.",
+    "strings": {
+      "modificar_contrato": "\"modifica o adiciona el contrato mediante acuerdo escrito\";"
+    },
+    "assets": {
+      "CreditoOtorgado": "asset CreditoOtorgado = Service, +, PRESTADOR, otorgar_credito, ACREDITADO;",
+      "ModificacionContrato": "asset ModificacionContrato = Service, +, ALL_PARTIES, modificar_contrato, null;"
+    },
+    "clauses": {
+      "trigesima": "clause trigesima = { CreditoOtorgado, PVG(ModificacionContrato) };"
+    }
+  },
+  {
+    "article_number": "Cláusula 31",
+    "original": "TRIGÉSIMA PRIMERA. - INFORMACIÓN PARA LA PARTE ACREDITADO. Las solicitudes de información relacionadas con el crédito objeto del presente contrato que formule LA PARTE ACREDITADO deberán ser presentados en días y horas hábiles, en un horario de 8:00 a 14:00 horas en el domicilio de PRESTADOR señalado en este contrato.\nPRESTADOR emitirá una respuesta por escrito a LA PARTE ACREDITADO dentro de un plazo de 5 días hábiles, contado a partir de la fecha de recepción de solicitud de información y estará a su disposición en el domicilio señalado en el párrafo anterior.",
+    "strings": {
+      "solicitar_informacion": "\"solicita información relacionada con el crédito\";",
+      "proporcionar_respuesta": "\"proporciona respuesta a la solicitud de información\";"
+    },
+    "assets": {
+      "CreditoOtorgado": "asset CreditoOtorgado = Service, +, PRESTADOR, otorgar_credito, ACREDITADO;",
+      "SolicitudInformacion": "asset SolicitudInformacion = Service, +, ACREDITADO, solicitar_informacion, PRESTADOR;",
+      "RespuestaProporcionada": "asset RespuestaProporcionada = Service, +, PRESTADOR, proporcionar_respuesta, ACREDITADO;"
+    },
+    "clauses": {
+      "trigesima_primera": "clause trigesima_primera = { CreditoOtorgado AND SolicitudInformacion, OB(RespuestaProporcionada) };"
+    }
+  },
+  {
+    "article_number": "Cláusula 32",
+    "original": "TRIGÉSIMA SEGUNDA. – DE LAS OBLIGACIONES GARANTIZADAS ADICIONALES. De conformidad con lo previsto y acordado en el FIDEICOMISO IRREVOCABLE DE GARANTÍA FID-001, y con fundamento además en lo contemplado en el artículo 397 de la Ley General de Títulos y Operaciones de Crédito, por medio de la presente cláusula el FIDEICOMISARIO EN PRIMER LUGAR, DEPOSITARIO y FIDEICOMITENTE en este acto instruyen, notifican y manifiestan su plena voluntad a fin de que la FIDUCIARIA tenga en el FIDEICOMISO IRREVOCABLE DE GARANTÍA FID-001 como OBLIGACIONES GARANTIZADAS a las obligaciones del presente contrato de crédito, adicionalmente a las obligaciones contenidas originalmente en el FIDEICOMISO IRREVOCABLE DE GARANTÍA FID-001, y convienen y están de acuerdo en establecer las mismas reglas pactadas en dicho FIDEICOMISO IRREVOCABLE DE GARANTÍA FID-001, y en especial fijan como regla que en caso de la existencia de incumplimiento de una o más OBLIGACIONES GARANTIZADAS de cualquiera de los créditos en referencia o de ambos, la FIDUCIARIA por instrucciones del FIDEICOMISARIO EN PRIMER LUGAR, dará inicio al \"PROCEDIMIENTO DE ENAJENACIÓN EXTRAJUDICIAL\", conforme lo establecido en la SECCIÓN ESPECIAL el cual en este ratifican su contenido para todo efecto legal.",
+    "strings": {
+      "garantizar_obligaciones_fideicomiso": "\"garantiza las obligaciones del contrato en el fideicomiso\";",
+      "iniciar_procedimiento_enajenacion": "\"inicia el procedimiento de enajenación extrajudicial\";",
+      "incumplir_obligaciones": "\"incumple las obligaciones garantizadas\";"
+    },
+    "assets": {
+      "CreditoOtorgado": "asset CreditoOtorgado = Service, +, PRESTADOR, otorgar_credito, ACREDITADO;",
+      "ObligacionesGarantizadas": "asset ObligacionesGarantizadas = Service, +, ACREDITADO, garantizar_obligaciones_fideicomiso, PRESTADOR;",
+      "ProcedimientoEnajenacionIniciado": "asset ProcedimientoEnajenacionIniciado = Service, +, PRESTADOR, iniciar_procedimiento_enajenacion, ACREDITADO;",
+      "IncumplimientoObligaciones": "asset IncumplimientoObligaciones = Service, +, ACREDITADO, incumplir_obligaciones, PRESTADOR;"
+    },
+    "clauses": {
+      "trigesima_segunda_a": "clause trigesima_segunda_a = { CreditoOtorgado, OB(ObligacionesGarantizadas) };",
+      "trigesima_segunda_b": "clause trigesima_segunda_b = { IncumplimientoObligaciones, CR(ProcedimientoEnajenacionIniciado) };"
+    }
+  },
+  {
+    "article_number": "Artículo 2122",
+    "original": "En un contrato de compraventa, el vendedor se obliga a entregar el bien vendido y el comprador a pagar el precio pactado.",
+    "strings": {
+      "vender": "\"vende un objeto\";",
+      "entregar": "\"entrega el objeto\";",
+      "pagar": "\"paga el precio\";"
+    },
+    "assets": {
+      "Venta": "asset Venta = Property, M, VENDEDOR, vender, COMPRADOR;",
+      "Entrega": "asset Entrega = Service, +, VENDEDOR, entregar, COMPRADOR;",
+      "Pago": "asset Pago = Service, +, COMPRADOR, pagar, VENDEDOR;"
+    },
+    "clauses": {
+      "MMCXXII_a": "clause MMCXXII_a = { Venta, CR(Entrega) };",
+      "MMCXXII_b": "clause MMCXXII_b = { Venta, CR(Pago) };"
+    }
+  },
+  {
+    "article_number": "Artículo 2128",
+    "original": "El precio de la compraventa no puede ser fijado unilateralmente por el vendedor.",
+    "strings": {
+      "fijar_precio_unilateral": "\"fija precio unilateralmente\";"
+    },
+    "assets": {
+      "Venta": "asset Venta = Property, M, VENDEDOR, vender, COMPRADOR;",
+      "FijacionPrecioUnilateral": "asset FijacionPrecioUnilateral = Service, +, VENDEDOR, fijar_precio_unilateral, COMPRADOR;"
+    },
+    "clauses": {
+      "MMCXXVIII": "clause MMCXXVIII = { Venta, PR(FijacionPrecioUnilateral) };"
+    }
+  },
+  {
+    "article_number": "Artículo 2143",
+    "original": "El vendedor debe ser propietario del bien que vende.",
+    "strings": {
+      "vender_propiedad": "\"vende propiedad propia\";"
+    },
+    "assets": {
+      "Venta": "asset Venta = Property, M, VENDEDOR, vender, COMPRADOR;",
+      "VentaPropiedad": "asset VentaPropiedad = Service, +, VENDEDOR, vender_propiedad, COMPRADOR;"
+    },
+    "clauses": {
+      "MMCXLIII": "clause MMCXLIII = { Venta, OB(VentaPropiedad) };"
+    }
+  },
+  {
+    "article_number": "Artículo 2144",
+    "original": "La venta de cosa ajena es nula, y si el vendedor actuó con dolo o mala fe, debe resarcir daños y perjuicios.",
+    "strings": {
+      "vender_cosa_ajena": "\"vende cosa ajena\";",
+      "vender_con_dolo_o_mala_fe": "\"vende con dolo o mala fe\";",
+      "resarcir_danios_perjuicios": "\"resarce daños y perjuicios\";"
+    },
+    "assets": {
+      "Venta": "asset Venta = Property, M, VENDEDOR, vender, COMPRADOR;",
+      "VentaCosaAjena": "asset VentaCosaAjena = Service, +, VENDEDOR, vender_cosa_ajena, COMPRADOR;",
+      "VentaConDoloOMalaFe": "asset VentaConDoloOMalaFe = Service, +, VENDEDOR, vender_con_dolo_o_mala_fe, COMPRADOR;",
+      "ResarcirDaniosPerjuicios": "asset ResarcirDaniosPerjuicios = Service, +, VENDEDOR, resarcir_danios_perjuicios, COMPRADOR;"
+    },
+    "clauses": {
+      "MMCXLIV_a": "clause MMCXLIV_a = { Venta, PR(VentaCosaAjena) };",
+      "MMCXLIV_b": "clause MMCXLIV_b = { VentaConDoloOMalaFe, OB(ResarcirDaniosPerjuicios) };"
+    }
+  },
+  {
+    "article_number": "Artículo 2148",
+    "original": "Los extranjeros pueden comprar bienes raíces, siempre que cumplan con las disposiciones del Artículo 27 de la Constitución.",
+    "strings": {
+      "comprar_bienes_raices": "\"compra bienes raíces\";",
+      "cumplir_articulo_27": "\"cumple con Artículo 27 de la Constitución\";"
+    },
+    "assets": {
+      "CompraBienesRaices": "asset CompraBienesRaices = Service, +, COMPRADOR, comprar_bienes_raices, VENDEDOR;",
+      "CumplirArticulo27": "asset CumplirArticulo27 = Service, +, COMPRADOR, cumplir_articulo_27, VENDEDOR;"
+    },
+    "clauses": {
+      "MMCXLVIII": "clause MMCXLVIII = { CompraBienesRaices, OB(CumplirArticulo27) };"
+    }
+  },
+  {
+    "article_number": "Artículo 2152",
+    "original": "Los hijos pueden vender bienes de su propiedad a sus padres, siempre que se cumplan los requisitos legales.",
+    "strings": {
+      "vender_bienes_primera_clase": "\"vende bienes de primera clase\";",
+      "vender_a_padres": "\"vende a sus padres\";"
+    },
+    "assets": {
+      "VentaBienesPrimeraClase": "asset VentaBienesPrimeraClase = Service, +, VENDEDOR, vender_bienes_primera_clase, COMPRADOR;",
+      "VentaAPadres": "asset VentaAPadres = Service, +, VENDEDOR, vender_a_padres, COMPRADOR;"
+    },
+    "clauses": {
+      "MMCLII": "clause MMCLII = { VentaBienesPrimeraClase, OB(VentaAPadres) };"
+    }
+  },
+  {
+    "article_number": "Artículo 2153",
+    "original": "La venta entre copropietarios se regula por los Artículos 960 y 961 del Código Civil.",
+    "strings": {
+      "cumplir_articulos_960_961": "\"cumple con Artículos 960 y 961\";"
+    },
+    "assets": {
+      "Venta": "asset Venta = Property, M, VENDEDOR, vender, COMPRADOR;",
+      "CumplirArticulos960_961": "asset CumplirArticulos960_961 = Service, +, VENDEDOR, cumplir_articulos_960_961, COMPRADOR;"
+    },
+    "clauses": {
+      "MMCLIII": "clause MMCLIII = { Venta, OB(CumplirArticulos960_961) };"
+    }
+  },
+  {
+    "article_number": "Artículo 2156",
+    "original": "Es prohibida la compra de bienes en contravención de la ley.",
+    "strings": {
+      "compra_contraviniendo": "\"compra en contravención de la ley\";"
+    },
+    "assets": {
+      "Venta": "asset Venta = Property, M, VENDEDOR, vender, COMPRADOR;",
+      "CompraContraviniendo": "asset CompraContraviniendo = Service, +, COMPRADOR, compra_contraviniendo, VENDEDOR;"
+    },
+    "clauses": {
+      "MMCLVI": "clause MMCLVI = { Venta, PR(CompraContraviniendo) };"
+    }
+  },
+  {
+    "article_number": "Artículo 2176",
+    "original": "En la compraventa, se prohíbe el pacto de retroventa.",
+    "strings": {
+      "vender_con_pacto_de_retroventa": "\"vende con pacto de retroventa\";"
+    },
+    "assets": {
+      "Venta": "asset Venta = Property, M, VENDEDOR, vender, COMPRADOR;",
+      "VentaConRetroventa": "asset VentaConRetroventa = Service, +, VENDEDOR, vender_con_pacto_de_retroventa, COMPRADOR;"
+    },
+    "clauses": {
+      "MMCLXXVI": "clause MMCLXXVI = { Venta, PR(VentaConRetroventa) };"
+    }
+  },
+  {
+    "article_number": "Artículo 2196",
+    "original": "La venta de bienes inmuebles debe registrarse para producir efectos contra terceros.",
+    "strings": {
+      "registrar_venta": "\"registra la venta\";",
+      "producir_efectos": "\"produce efectos contra terceros\";"
+    },
+    "assets": {
+      "Venta": "asset Venta = Property, M, VENDEDOR, vender, COMPRADOR;",
+      "RegistroVenta": "asset RegistroVenta = Service, +, VENDEDOR, registrar_venta, null;",
+      "EfectosContraTerceros": "asset EfectosContraTerceros = Service, +, VENDEDOR, producir_efectos, TERCERO;"
+    },
+    "clauses": {
+      "MMCXCVI_a": "clause MMCXCVI_a = { Venta, OB(RegistroVenta) };",
+      "MMCXCVI_b": "clause MMCXCVI_b = { RegistroVenta, CR(EfectosContraTerceros) };"
+    }
+  },
+  {
+    "article_number": "Artículo 2202",
+    "original": "En el contrato de permuta, si uno de los permutantes recibe una cosa y acredita que no era de propiedad del otro, puede retener la suya.",
+    "strings": {
+      "recibir_permuta_y_acreditar_no_propiedad": "\"recibe la cosa en permuta y acredita que no era propia\";",
+      "no_entregar_permuta": "\"no entrega objeto ofrecido en permuta\";"
+    },
+    "assets": {
+      "RecepcionPermutaYNoPropiedad": "asset RecepcionPermutaYNoPropiedad = Service, +, PERMUTANTE1, recibir_permuta_y_acreditar_no_propiedad, null;",
+      "NoEntregaPermuta": "asset NoEntregaPermuta = Service, +, PERMUTANTE1, no_entregar_permuta, PERMUTANTE2;"
+    },
+    "clauses": {
+      "MMCCII": "clause MMCCII = { RecepcionPermutaYNoPropiedad, PR(NoEntregaPermuta) };"
+    }
+  },
+  {
+    "article_number": "Artículo 2216 y 2217",
+    "original": "Las donaciones verbales de bienes muebles cuyo valor no exceda de cierta cantidad son válidas. Las donaciones de bienes muebles de valor mayor deben hacerse por escrito.",
+    "strings": {
+      "donacion_verbal_bienes_muebles_valor_menor_igual_200": "\"donación verbal de bienes muebles de valor ≤ 200 pesos\";"
+    },
+    "assets": {
+      "Donacion": "asset Donacion = Property, M, DONANTE, donar, DONATARIO;",
+      "DonacionVerbalBienesMueblesValorMenorIgual200": "asset DonacionVerbalBienesMueblesValorMenorIgual200 = Service, +, DONANTE, donacion_verbal_bienes_muebles_valor_menor_igual_200, DONATARIO;"
+    },
+    "clauses": {
+      "MMCCXVI_XVII": "clause MMCCXVI_XVII = { Donacion, PVG(DonacionVerbalBienesMueblesValorMenorIgual200) };"
+    }
+  },
+  {
+    "article_number": "Artículo 2218",
+    "original": "Las donaciones de bienes muebles de valor superior a cierta cantidad deben hacerse por escrito.",
+    "strings": {
+      "donacion_bienes_muebles_valor_mayor_200": "\"dona bienes muebles de valor > 200 pesos\";",
+      "hacer_donacion_por_escrito": "\"hace donación por escrito\";"
+    },
+    "assets": {
+      "DonacionBienesMueblesValorMayor200": "asset DonacionBienesMueblesValorMayor200 = Service, +, DONANTE, donacion_bienes_muebles_valor_mayor_200, DONATARIO;",
+      "HacerDonacionPorEscrito": "asset HacerDonacionPorEscrito = Service, +, DONANTE, hacer_donacion_por_escrito, DONATARIO;"
+    },
+    "clauses": {
+      "MMCCXVIII": "clause MMCCXVIII = { DonacionBienesMueblesValorMayor200, OB(HacerDonacionPorEscrito) };"
+    }
+  },
+  {
+    "article_number": "Artículo 2221",
+    "original": "El donante que dona la totalidad de sus bienes debe reservar lo necesario para su subsistencia.",
+    "strings": {
+      "donacion_totalidad_bienes": "\"dona la totalidad de bienes\";",
+      "reservar_bienes_para_vivir": "\"reserva bienes necesarios para vivir\";"
+    },
+    "assets": {
+      "DonacionTotalidadBienes": "asset DonacionTotalidadBienes = Property, M, DONANTE, donacion_totalidad_bienes, DONATARIO;",
+      "ReservaBienesParaVivir": "asset ReservaBienesParaVivir = Property, M, DONANTE, reservar_bienes_para_vivir, DONATARIO;"
+    },
+    "clauses": {
+      "MMCCXXI": "clause MMCCXXI = { DonacionTotalidadBienes, OB(ReservaBienesParaVivir) };"
+    }
+  },
+  {
+    "article_number": "Artículo 2240",
+    "original": "No puede renunciarse anticipadamente el derecho de revocación de la donación por nacimiento de hijos.",
+    "strings": {
+      "renunciar_revocacion_por_hijos": "\"renuncia anticipadamente al derecho de revocación por hijos\";"
+    },
+    "assets": {
+      "Donacion": "asset Donacion = Property, M, DONANTE, donar, DONATARIO;",
+      "RenunciarRevocacionPorHijos": "asset RenunciarRevocacionPorHijos = Service, +, DONANTE, renunciar_revocacion_por_hijos, DONATARIO;"
+    },
+    "clauses": {
+      "MMCCXL": "clause MMCCXL = { Donacion, PR(RenunciarRevocacionPorHijos) };"
+    }
+  },
+  {
+    "article_number": "Artículo 2246",
+    "original": "No puede renunciarse anticipadamente el derecho de revocación de la donación por ingratitud.",
+    "strings": {
+      "renunciar_revocacion_por_ingratitud": "\"renuncia anticipadamente al derecho de revocación por ingratitud\";"
+    },
+    "assets": {
+      "Donacion": "asset Donacion = Property, M, DONANTE, donar, DONATARIO;",
+      "RenunciarRevocacionPorIngratitud": "asset RenunciarRevocacionPorIngratitud = Service, +, DONANTE, renunciar_revocacion_por_ingratitud, DONATARIO;"
+    },
+    "clauses": {
+      "MMCCXLVI": "clause MMCCXLVI = { Donacion, PR(RenunciarRevocacionPorIngratitud) };"
+    }
+  },
+  {
+    "article_number": "Artículo 2258",
+    "original": "En el contrato de mutuo, el mutuario se obliga a devolver al mutuante cosas del mismo género y calidad.",
+    "strings": {
+      "prestar": "\"presta una suma de dinero o cosa fungible\";",
+      "devolver": "\"devuelve lo prestado\";"
+    },
+    "assets": {
+      "Prestamo": "asset Prestamo = Service, +, MUTUANTE, prestar, MUTUARIO;",
+      "Devolucion": "asset Devolucion = Service, +, MUTUARIO, devolver, MUTUANTE;"
+    },
+    "clauses": {
+      "MMCCLVIII": "clause MMCCLVIII = { Prestamo, OB(Devolucion) };"
+    }
+  },
+  {
+    "article_number": "Artículo 2271",
+    "original": "No se pueden capitalizar los intereses, excepto en los casos permitidos por la ley.",
+    "strings": {
+      "capitalizar_intereses": "\"capitaliza intereses\";"
+    },
+    "assets": {
+      "Prestamo": "asset Prestamo = Service, +, MUTUANTE, prestar, MUTUARIO;",
+      "CapitalizacionIntereses": "asset CapitalizacionIntereses = Service, +, MUTUANTE, capitalizar_intereses, MUTUARIO;"
+    },
+    "clauses": {
+      "MMCCLXXI": "clause MMCCLXXI = { Prestamo, PR(CapitalizacionIntereses) };"
+    }
+  },
+  {
+    "article_number": "Artículo 2272",
+    "original": "En el arrendamiento, el arrendatario se obliga a usar el bien arrendado y a pagar la renta convenida.",
+    "strings": {
+      "arrendar": "\"arrienda un bien\";",
+      "uso_bien": "\"usa el bien arrendado\";",
+      "pagar_renta": "\"paga la renta\";"
+    },
+    "assets": {
+      "Arrendamiento": "asset Arrendamiento = Service, +, ARRENDADOR, arrendar, ARRENDATARIO;",
+      "UsoBien": "asset UsoBien = Service, +, ARRENDATARIO, uso_bien, ARRENDATARIO;",
+      "PagoRenta": "asset PagoRenta = Service, +, ARRENDATARIO, pagar_renta, ARRENDADOR;"
+    },
+    "clauses": {
+      "MMCCLXXII_a": "clause MMCCLXXII_a = { Arrendamiento, CR(UsoBien) };",
+      "MMCCLXXII_b": "clause MMCCLXXII_b = { Arrendamiento, CR(PagoRenta) };"
+    }
+  },
+  {
+    "article_number": "Artículo 2280",
+    "original": "El arrendamiento debe otorgarse por escrito cuando la ley lo exige.",
+    "strings": {
+      "otorgar_contrato_escrito": "\"otorga contrato de arrendamiento por escrito\";"
+    },
+    "assets": {
+      "Arrendamiento": "asset Arrendamiento = Service, +, ARRENDADOR, arrendar, ARRENDATARIO;",
+      "OtorgarContratoEscrito": "asset OtorgarContratoEscrito = Service, +, ARRENDADOR, otorgar_contrato_escrito, ARRENDATARIO;"
+    },
+    "clauses": {
+      "MMCCLXXX": "clause MMCCLXXX = { Arrendamiento, OB(OtorgarContratoEscrito) };"
+    }
+  },
+  {
+    "article_number": "Artículo 2288",
+    "original": "El arrendador no puede mudar la forma del bien arrendado ni intervenir en el uso legítimo del arrendatario.",
+    "strings": {
+      "mudar_forma_bien_arrendado": "\"muda forma de bien arrendado\";",
+      "intervenir_uso_legitimo": "\"interviene en uso legítimo\";"
+    },
+    "assets": {
+      "Arrendamiento": "asset Arrendamiento = Service, +, ARRENDADOR, arrendar, ARRENDATARIO;",
+      "MudarFormaBienArrendado": "asset MudarFormaBienArrendado = Service, +, ARRENDADOR, mudar_forma_bien_arrendado, ARRENDATARIO;",
+      "IntervenirUsoLegitimo": "asset IntervenirUsoLegitimo = Service, +, ARRENDADOR, intervenir_uso_legitimo, ARRENDATARIO;"
+    },
+    "clauses": {
+      "MMCCLXXXVIII_a": "clause MMCCLXXXVIII_a = { Arrendamiento, PR(MudarFormaBienArrendado) };",
+      "MMCCLXXXVIII_b": "clause MMCCLXXXVIII_b = { Arrendamiento, PR(IntervenirUsoLegitimo) };"
+    }
+  },
+  {
+    "article_number": "Artículo 2289",
+    "original": "El arrendatario debe informar al arrendador sobre la necesidad de reparaciones urgentes.",
+    "strings": {
+      "informar_reparaciones": "\"informa necesidad de reparaciones\";"
+    },
+    "assets": {
+      "Arrendamiento": "asset Arrendamiento = Service, +, ARRENDADOR, arrendar, ARRENDATARIO;",
+      "InformarReparaciones": "asset InformarReparaciones = Service, +, ARRENDATARIO, informar_reparaciones, ARRENDADOR;"
+    },
+    "clauses": {
+      "MMCCLXXXIX": "clause MMCCLXXXIX = { Arrendamiento, OB(InformarReparaciones) };"
+    }
+  },
+  {
+    "article_number": "Artículo 2305",
+    "original": "Si el arrendatario se ve impedido totalmente de usar el bien arrendado por causa no imputable a él, no está obligado a pagar la renta durante el impedimento.",
+    "strings": {
+      "impedimento_total_uso": "\"impedimento total de uso\";",
+      "no_pagar_renta_durante_impedimento": "\"no paga renta durante impedimento\";"
+    },
+    "assets": {
+      "ImpedimentoTotalUso": "asset ImpedimentoTotalUso = Service, +, ARRENDATARIO, impedimento_total_uso, ARRENDADOR;",
+      "NoPagarRentaDuranteImpedimento": "asset NoPagarRentaDuranteImpedimento = Service, +, ARRENDATARIO, no_pagar_renta_durante_impedimento, ARRENDADOR;"
+    },
+    "clauses": {
+      "MMCCCV": "clause MMCCCV = { ImpedimentoTotalUso, PVG(NoPagarRentaDuranteImpedimento) };"
+    }
+  },
+  {
+    "article_number": "Artículo 2307",
+    "original": "Es nula cualquier renuncia anticipada de derechos otorgados al arrendatario por la ley.",
+    "strings": {
+      "renunciar_derechos": "\"renuncia a derechos establecidos\";"
+    },
+    "assets": {
+      "Arrendamiento": "asset Arrendamiento = Service, +, ARRENDADOR, arrendar, ARRENDATARIO;",
+      "RenunciaDerechos": "asset RenunciaDerechos = Service, +, ARRENDATARIO, renunciar_derechos, ARRENDADOR;"
+    },
+    "clauses": {
+      "MMCCCVII": "clause MMCCCVII = { Arrendamiento, PR(RenunciaDerechos) };"
+    }
+  } 
+  ]
+}

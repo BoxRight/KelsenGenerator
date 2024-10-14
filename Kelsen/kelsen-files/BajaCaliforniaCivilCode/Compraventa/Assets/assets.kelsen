@@ -1,0 +1,125 @@
+
+asset CompradorMueble = Property, M, COMPRADOR, comprador, VENDEDOR;
+asset CompradorInmueble = Property,NM, COMPRADOR, comprador, VENDEDOR;
+
+asset VendedorMueble = Property, M, VENDEDOR, vendedor, COMPRADOR;
+asset VendedorInmueble = Property, NM, VENDEDOR, vendedor, COMPRADOR;
+
+asset AcordarCosa = Service, +, VENDEDOR, acordarcosa, COMPRADOR;
+asset AcordarPrecio = Service, +, VENDEDOR, acordarprecio, COMPRADOR;
+
+asset ParcialEnDinero = Service, +, VENDEDOR, parcialendinero, COMPRADOR;
+asset ParcialEnCosas = Service, +, VENDEDOR, parcialencosas, COMPRADOR;
+
+asset PrecioDeLugar = Service, +, VENDEDOR, preciodelugar, COMPRADOR;
+asset PrecioDeTercero = Service, +, VENDEDOR, preciodetercero, COMPRADOR;
+
+asset CompraVenta = Service, +, VENDEDOR, compraventa, COMPRADOR;
+
+asset RechazoComun = Service, +, VENDEDOR, rechazocomun, COMPRADOR;
+
+asset TerceroNoSeñala = Service, +, VENDEDOR, tercernoseñala, COMPRADOR;
+asset ContratoNuloV = Property, NM, VENDEDOR, contratonulo, COMPRADOR;
+asset ContratoNuloC = Property, NM, COMPRADOR, contratonulo, VENDEDOR;
+asset NoActioProForma = Property, NM, COMPRADOR, noactioproforma, VENDEDOR;
+
+asset PrecioArbitrioV = Service, +, VENDEDOR, precioarbitrio, COMPRADOR;
+asset PrecioArbitrioC = Service, +, COMPRADOR, precioarbitrio, VENDEDOR;
+
+asset NoPagoPlazo = Service, -, VENDEDOR, nopagoplazo, COMPRADOR;
+asset NoPagoInmediato = Service, -, COMPRADOR, nopagoinmediato, VENDEDOR;
+asset NoFijaPlazo = Service, -, VENDEDOR, nofijaplazo, COMPRADOR;
+asset ReditoLegal = Service, +, COMPRADOR, reditolegal, VENDEDOR;
+
+asset CosaAjena = Property, M, VENDEDOR, cosaAjena, COMPRADOR;
+asset Dolo = Service, -, VENDEDOR, dolo, COMPRADOR;
+asset Revalidado = Service, +, VENDEDOR, revalidado, COMPRADOR;
+
+asset CosaLitigiosa = Property, M, VENDEDOR, cosaLitigiosa, COMPRADOR;
+asset NoDeclaraLitigio = Service, -, VENDEDOR, noDeclaraLitigio, COMPRADOR;
+asset EviccionLitigio = Service, +, VENDEDOR, eviccionLitigio, COMPRADOR;
+asset BienesEspecificos = Property, M, VENDEDOR, bienesEspecificos, COMPRADOR;
+asset NoRequisitosLegales = Service, +, VENDEDOR, requisitosLegales, COMPRADOR;
+
+asset CompraBienesRaices = Property, NM, COMPRADOR, compraBienesRaices, VENDEDOR;
+asset VentaHerencia = Property, M, COMPRADOR, ventaHerencia, VENDEDOR;
+asset PatriaPotestad = Property, M, COMPRADOR, patriaPotestad, VENDEDOR;
+asset VentaIndivisa = Property, M, VENDEDOR, ventaIndivisa, COMPRADOR;
+
+asset AdministradorBienes = Property, M, VENDEDOR, administradorBienes, VENDEDOR;
+asset CompraJuicios = Property, M, COMPRADOR, compraJuicios, VENDEDOR;
+
+asset NoPagarPrecio = Service, +, COMPRADOR, nopagarPrecio, VENDEDOR;
+asset NoPagarDondeEntrega = Service, +, COMPRADOR, nopagarDondeEntrega, VENDEDOR;
+asset DepositoTercero = Service, +, COMPRADOR, depositoTercero, VENDEDOR;
+asset PagarIntereses = Service, +, COMPRADOR, pagarIntereses, VENDEDOR;
+
+asset NoPagarInteresesPlazo = Service, -, COMPRADOR, noPagarInteresesPlazo, VENDEDOR;
+asset PagarInteresesPosterior = Service, +, COMPRADOR, pagarInteresesPosterior, VENDEDOR;
+asset SuspenderPago = Service, +, COMPRADOR, suspenderPago, VENDEDOR;
+asset AsegurarPosesion = Service, +, VENDEDOR, asegurarPosesion, COMPRADOR;
+
+asset CompraPlazoClaim = Property, M, COMPRADOR, compraAPlazos, VENDEDOR;
+asset CompraEsperaClaim = Property, M, COMPRADOR, compraConEspera, VENDEDOR;
+asset PerturbacionPosesion = Service, -, COMPRADOR, perturbacionPosesion, VENDEDOR;
+asset JustoTemor = Service, -, COMPRADOR, justoTemor, VENDEDOR;
+asset ConvenioContrario = Service, +, COMPRADOR, convenioContrario, VENDEDOR;
+
+asset FormalizarContrato = Service, +, VENDEDOR, formalizarContrato, COMPRADOR;
+asset OtorgarDocumentoPrivado = Service, +, VENDEDOR, otorgarDocumentoPrivado, COMPRADOR;
+asset OtorgarSinTestigos = Service, +, VENDEDOR, otorgarSinTestigos, COMPRADOR;
+asset FirmarPorRuego = Service, +, VENDEDOR, firmarPorRuego, COMPRADOR;
+asset FormarDosOriginales = Service, +, VENDEDOR, formarDosOriginales, COMPRADOR;
+asset HacerEscrituraPublica = Service, +, VENDEDOR, hacerEscrituraPublica, COMPRADOR;
+asset TransmitirPorEndoso = Service, +, VENDEDOR, transmitirPorEndoso, COMPRADOR;
+asset RegistrarVenta = Service, +, COMPRADOR, registrarVenta, VENDEDOR;
+asset ValorMenordiezmUMA = Property, M, VENDEDOR, valorMenordiezmUMA, COMPRADOR;
+asset ValorMenorsietemUMA = Property, M, VENDEDOR, valorMenorsietemUMA, COMPRADOR;
+asset RegularizacionTenenciaClaim = Property, NM, VENDEDOR, regularizacionTenencia, COMPRADOR;
+asset VentaContadoClaim = Service, +, COMPRADOR, ventaContado, VENDEDOR;
+asset BienInscritoClaim = Property, NM, VENDEDOR, bienInscrito, COMPRADOR;
+asset ValorMayordiezmUMA = Property, M, VENDEDOR, valorMayordiezmUMA, COMPRADOR;
+
+asset ReservaDominio = Service, +, VENDEDOR, reserva, COMPRADOR;
+asset NoTranscurraPlazo = Service, -, COMPRADOR, notranscurraplazo, VENDEDOR;
+asset Rescision = Service, +, COMPRADOR, rescision, VENDEDOR;
+asset NoReservaDominio = Service, -, VENDEDOR, noreserva, COMPRADOR;
+asset Venta = Service, +, VENDEDOR, venta, COMPRADOR;
+asset NoPaga = Service, -, COMPRADOR, noentrega, VENDEDOR;
+asset Arrendamiento = Service, +, COMPRADOR, arrendamiento, VENDEDOR;
+asset VenderOtro = Service, +, VENDEDOR, venderotro, COMPRADOR;
+asset Entrega = Service, +, VENDEDOR, entrega, COMPRADOR;
+
+asset PrestarEviccion = Service, +, VENDEDOR, eviccion, COMPRADOR;
+asset EntregaReal = Service, +, VENDEDOR, entregareal, COMPRADOR;
+asset EntregaJuridica = Service, +, VENDEDOR, entregajuridica, COMPRADOR;
+asset EntregaVirtual = Service, +, VENDEDOR, entregavirtual, COMPRADOR;
+asset Consentimiento = Service, +, COMPRADOR, consentimiento, VENDEDOR;
+asset GastosEntregaVendedor = Service, +, VENDEDOR, gastosentrega, COMPRADOR;
+asset GastosTransporteComprador = Service, +, COMPRADOR, gastostransporte, VENDEDOR;
+
+asset EntregaEnEstadoOriginal = Service, +, VENDEDOR, estadooriginal, COMPRADOR;
+asset EntregaLinderos = Service, +, VENDEDOR, linderos, COMPRADOR;
+asset Mora = Service, -, COMPRADOR, mora, VENDEDOR;
+asset Alquiler = Service, +, COMPRADOR, alquiler, VENDEDOR;
+asset ConservarBien = Service, +, VENDEDOR, conservarbien, COMPRADOR;
+asset ProhibirVentaTercero = Service, +, VENDEDOR, prohibirventatotal, COMPRADOR;
+asset ProhibirVentaGeneral = Service, +, VENDEDOR, prohibirventageneral, COMPRADOR;
+asset RetroVenta = Service, -, VENDEDOR, retroventa, COMPRADOR;
+asset PromesaVentaInmueble = Service, -, VENDEDOR, promesaventa, COMPRADOR;
+asset DerechoTantoMuebles = Service, +, VENDEDOR, derechotantomuebles, COMPRADOR;
+asset DerechoTantoInmuebles = Service, +, VENDEDOR, derechotantoinmuebles, COMPRADOR;
+asset NoNotificar = Service, -, VENDEDOR, noNotificar, COMPRADOR;
+asset Garantir = Service, +, VENDEDOR, garantizar, COMPRADOR;
+asset Heredar = Service, +, VENDEDOR, heredar, COMPRADOR;
+asset BienesFuturos = Service, +, VENDEDOR, bienesfuturos, COMPRADOR;
+asset ContratoAleatorio = Service, +, VENDEDOR, contratoaleatorio, COMPRADOR;
+asset RescisionRegistrada = Service, +, COMPRADOR, rescisionregistrada, VENDEDOR;
+asset NoTerceroBuenaFe = Service, -, VENDEDOR, noterabuena, COMPRADOR;
+asset Restitucion = Service, +, VENDEDOR, restitucion, COMPRADOR;
+asset PagoParcial = Service, +, VENDEDOR, pagoparcial, COMPRADOR;
+asset MasOneroso = Service, +, VENDEDOR, masoneroso, COMPRADOR;
+asset ConvenioIntereses = Service, +, COMPRADOR, convenioIntereses, VENDEDOR;
+
+
+asset ProduceFrutos = Property, M, VENDEDOR, produceFrutos, COMPRADOR;

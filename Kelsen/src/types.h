@@ -1,0 +1,26 @@
+#ifndef TYPES_H
+#define TYPES_H
+
+typedef enum {
+    TYPE_INT,
+    TYPE_FLOAT,
+    TYPE_STRING,
+    TYPE_ASSET,
+    TYPE_SUBJECT,
+    TYPE_CLAUSE,
+    TYPE_QUERY,
+    TYPE_LEGAL,
+    TYPE_CONDITION,  // Add this line
+    TYPE_CLAIM_RIGHT,
+    TYPE_OBLIGATION,
+    TYPE_PROHIBITION,
+    TYPE_PRIVILEGE,
+    TYPE_POWER,
+    TYPE_LIABILITY,
+    TYPE_DISABILITY,
+    TYPE_IMMUNITY,
+    TYPE_UNKNOWN
+} VarType;
+
+#endif // TYPES_H
+

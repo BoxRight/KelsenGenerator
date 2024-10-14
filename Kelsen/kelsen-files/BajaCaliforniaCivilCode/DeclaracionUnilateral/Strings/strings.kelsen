@@ -1,0 +1,40 @@
+string ofrecer = "ofrece objetos en determinado precio";
+string sostener = "sostenga su ofrecimiento";
+string condicion = "llena determinada condición";
+string antescondicion = "aun no cumple la condición";
+string servicio = "desempeña cierto servicio";
+
+string pago = "podrá exigir el pago";
+string nopago = "no podrá exigir el pago";
+
+string norecompensa = "no podrá exigir la recompensa ofrecida";
+string recompensa = "da la recompensa ofrecida";
+
+string antesprestado = "aun no presta el servicio";
+string revocacion = "revoca su oferta, siempre que la revocación se haga con la misma publicidad que el ofrecimiento";
+string erogaciones = "haga erogaciones para prestar el servicio";
+string reembolso = "reembolse";
+
+string plazo = "señala el plazo para la ejecución de servicio";
+string revocacionplazo = "revoca su oferta, siempre que el plazo no venza";
+
+string primero = "desempeña el servicio primero";
+string simultaneo = "desempeña el servicio simultáneamente con otros";
+string proporcional = "dé la recompensa en parte proporcional";
+string divisible = "pueda dividir la recompensa";
+string nodivisible = "no pueda dividir la recompensa";
+string sorteo = "sortee la recompensa";
+
+string concurso = "ofrece objetos por medio de concurso";
+string designajuezconcurso = "designa a tercero como juez de concurso en la oferta";
+string decidequien = "reciba recompensa siempre que sea señalado";
+
+string beneficiario = "señala tercero como beneficiario frente";
+string pactocontrariobeneficiario = "no pacta en contrario respecto del tercero";
+string beneficiotercero = "beneficia al tercero frente";
+
+string nomanifiestaoferta = "no manifiesta voluntad de aprovechar oferta";
+string rechazaoferta = "rechaza la oferta";
+
+string oponerexcepciones = "oponer al tercero las excepciones hechas frente";
+

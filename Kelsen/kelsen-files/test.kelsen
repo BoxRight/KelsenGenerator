@@ -1,0 +1,21 @@
+string ofrecer = "hace una oferta al";
+string sostener = "sostener su ofrecimiento";
+string vender = "vende";
+
+subject OFERENTE = "Jesús Antonio Sesma","Belgrado 73", 6462, "jesus.sesma@hotmail.com";
+
+subject ACREEDOR = "Francisco Sesma", "Sin nombre", 6462, "Sin correo";
+
+asset Ofrecer = Service, +, OFERENTE, ofrecer, ACREEDOR;
+asset Sostener = Service, +, OFERENTE, sostener, ACREEDOR;
+asset Vender = Property, NM, OFERENTE, vender, ACREEDOR;
+
+clause a = {
+	Ofrecer AND Sostener,
+	CR(Sostener)
+};
+
+clause b = {
+	Ofrecer,
+	CR(Vender)
+};

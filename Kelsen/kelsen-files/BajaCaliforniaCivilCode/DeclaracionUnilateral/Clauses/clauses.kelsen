@@ -1,0 +1,90 @@
+clause a = {
+    Ofrecer,
+    CR(Sostener)
+};
+
+clause b = {
+	Condicion,
+	CR(Sostener)
+};
+
+clause c = {
+	Servicio,
+	CR(Sostener)
+};
+
+clause d = {
+	NoPago AND NoRecompensa,
+	PVG(Servicio)
+};
+
+clause e = {
+	NoPago AND NoRecompensa,
+	PVG(Condicion)
+
+};
+
+clause f = {
+    Antes,
+    PVG(Revocacion)
+};
+
+clause g = {
+    AntesCondicion,
+    PVG(Revocacion)
+};
+
+clause h = {
+	Revocacion AND Erogaciones,
+	CR(Reembolso)
+};
+
+clause i = {
+	Plazo,
+	PR(RevocacionPlazo)
+
+};
+
+clause j = {
+	Simultaneo AND Divisible,
+	CR(Proporcional)
+};
+
+
+clause k = {
+	Simultaneo AND NoDivisible,
+	CR(Sorteo)
+};
+
+clause l = {
+	Concurso,
+	CR(Plazo)
+
+};
+
+clause m = {
+	Concurso AND DesignaJuezConcurso,
+	CR(DecideQuien)
+};
+
+clause n = {
+	Beneficiario AND PactoContrarioBeneficiario,
+	CR(BeneficioTercero)
+
+};
+
+clause o = {
+	NoManifiestaOferta,
+	PVG(Revocacion)
+
+};
+
+clause p = {
+	RechazaOferta,
+	PVG(Revocacion)
+};
+
+clause q = {
+	Beneficiario AND PactoContrarioBeneficiario,
+	PVG(OponerExcepciones)
+};

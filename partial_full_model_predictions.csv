@@ -1,0 +1,2 @@
+Predictions,References
+"<extra_id_0> string ventaPropiedadBienInmuerda = ""venda Venta propiedad bien inmuerda"" ; ""; string ventaPropiedadComprador =""venda Venta propiedad comprador"";"" ; asset VentaPropiedadBienInmuerda = Property , M , VENDEDOR , ventaPropiedadBien , COMPRADOR ; asset VentaPropiedadComprador = Service , + , COMPRADOR , ventaPropiedadComprador , VENDEDOR ; clause MMCCLXXX",

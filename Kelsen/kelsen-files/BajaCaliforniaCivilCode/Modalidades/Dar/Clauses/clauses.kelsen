@@ -1,0 +1,163 @@
+clause MDCCCLXXXVIIa = {
+	DominioMueble,
+	PVG(CosaDistintaMueble)
+};
+
+clause MDCCCLXXXVIIaa = {
+	DominioMueble,
+	PVG(CosaDistintaInmueble)
+};
+
+clause MDCCCLXXXVIIab = {
+	DominioInmueble,
+	PVG(CosaDistintaInmueble)
+};
+
+clause MDCCCLXXXVIIac = {
+	DominioInmueble,
+	PVG(CosaDistintaMueble)
+};
+
+clause MDCCCLXXXVIIb = {
+	UsoGoceMueble,
+	PVG(CosaDistintaMueble)
+};
+
+clause MDCCCLXXXVIIba = {
+	UsoGoceMueble,
+	PVG(CosaDistintaInmueble)
+};
+
+clause MDCCCLXXXVIIbb = {
+	UsoGoceInmueble,
+	PVG(CosaDistintaInmueble)
+};
+
+clause MDCCCLXXXVIIbc = {
+	UsoGoceInmueble,
+	PVG(CosaDistintaMueble)
+};
+
+clause MDCCCLXXXVIIIa = {
+	DominioMueble AND NoPactoContrarioAcc,
+	CR(Accesorios)
+};
+
+clause MDCCCLXXXVIIIb = {
+	DominioInmueble AND NoPactoContrarioAcc,
+	CR(Accesorios)
+};
+
+clause MDCCCLXXXIXa = {
+	DominioMueble,
+	CR(TraslacionMueble)
+};
+
+clause MDCCCLXXXIXb = {
+	DominioInmueble,
+	CR(TraslacionInmueble)
+};
+
+clause MDCCCXCa = {
+	EnajenacionIncierta AND TraslacionMueble,
+	PR(DeterminaIncierta)
+};
+
+clause MDCCCXCb = {
+	EnajenacionIncierta AND TraslacionInmueble,
+	PR(DeterminaIncierta)
+};
+
+clause MDCCCXCI = {
+	EnajenacionIncierta,
+	PVG(MedianaCalidad)
+};
+
+clause MDCCCXCIIa = {
+	DominioMueble AND Accesorios,
+	PR(DeterioroDeudor)
+};
+
+clause MDCCCXCIIb = {
+	DominioInmueble AND Accesorios,
+	PR(DeterioroDeudor)
+};
+
+clause MDCCCXCIIc = {
+	DeterioroAcreedor,
+	PR(TraslacionMueble)
+};
+
+clause MDCCCXCIId = {
+	DeterioroAcreedor,
+	PR(TraslacionInmueble)
+};
+
+clause MDCCCXCIIe = {
+	FuerzaMayor,
+	PR(TraslacionInmueble)
+};
+
+clause MDCCCXCIIf = {
+	FuerzaMayor,
+	PR(TraslacionMueble)
+};
+
+clause MDCCCXCIIg = {
+	DeterioroDeudor,
+	CR(Daños)
+};
+
+clause MDCCCXCIIh = {
+	DeterioroDeudor,
+	CR(Reduccion)
+};
+
+clause MDCCCXCV = {
+	FuerzaMayor,
+	CR(EntregarAcciones)
+};
+
+clause MDCCCXCVIa = {
+	ExclusionComercio,
+	PR(TraslacionMueble)
+};
+
+clause MDCCCXCVIb = {
+	NoRecobrar,
+	PR(TraslacionMueble)
+};
+
+clause MDCCCXCVIc = {
+	ExclusionComercio,
+	PR(TraslacionInmueble)
+};
+
+clause MDCCCXCVId = {
+	NoRecobrar,
+	PR(TraslacionInmueble)
+};
+
+clause MDCCCXCIXa = {
+	DeterioroAcreedor AND UsoGoceMueble,
+	CR(AsumeAcreedor)
+};
+
+clause MDCCCXCIXb = {
+	DeterioroDeudor AND UsoGoceMueble,
+	CR(AsumeDeudor)
+};
+
+
+clause MDCCCXCIXc = {
+	DeterioroAcreedor AND UsoGoceInmueble,
+	CR(AsumeAcreedor)
+};
+
+clause MDCCCXCIXd = {
+	DeterioroDeudor AND UsoGoceInmueble,
+	CR(AsumeDeudor)
+};
+
+
+

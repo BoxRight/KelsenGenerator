@@ -1,0 +1,32 @@
+string dominio = "debe la traslación de dominio de cosa cierta";
+string usogoce = "debe la enajenación temporal del uso o goce de cosa cierta";
+string pago = "debe la restitución de cosa ajena o pago de cosa debida";
+
+string cosadistinta = "no acepte cosa distinta a la debida, inclusive si es de mayor valor";
+
+string accesorios = "debe entregar la cosa cierta y sus accesorios";
+string nopactoencontrarioacc = "no pacta no entregar los accesorios";
+string pactoencontrarioacc = "pacta no entregar los accesorios";
+
+string traslacion = "adquiera el dominio de cosa cierta frente";
+
+string enajenacionincierta = "debe la enajenación de cosa indeterminada";
+string nodeterminaincierta = "no determine la cosa indeterminada";
+
+
+string medianacalidad = "entregue cosa de mediana calidad";
+
+string deterioro = "pierda o deteriore la cosa a entregar";
+string fuerzamayor = "pierda la cosa a entregar por fuerza mayor o un tercero";
+string daños = "el pago de daños y perjuicios";
+string reduccion = "entrega de la cosa deteriorada con descuento";
+
+string entregaracciones = "entregue acciones para demandar a culpable";
+
+
+string exclusioncomercio = "sufre exclusión del comercio de la cosa frente";
+
+string norecobrar = "no puede recobrar la cosa por esta desparecer";
+
+string asume = "asume su pérdida frente";
+

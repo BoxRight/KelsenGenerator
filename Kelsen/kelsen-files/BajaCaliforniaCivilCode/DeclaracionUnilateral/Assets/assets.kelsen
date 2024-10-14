@@ -1,0 +1,40 @@
+asset Ofrecer = Service, +, OFERENTE, ofrecer, ACREEDOR;
+asset Sostener = Service, +, OFERENTE, sostener, ACREEDOR;
+asset Condicion = Service, +, ACREEDOR, condicion, OFERENTE;
+asset Servicio = Service, +, ACREEDOR, servicio, OFERENTE;
+
+asset Pago = Service, +, ACREEDOR, pago, OFERENTE;
+asset NoPago = Service, -, ACREEDOR, nopago, OFERENTE;
+
+asset Recompensa = Service, +, OFERENTE, recompensa, ACREEDOR;
+asset NoRecompensa = Service, -, ACREEDOR, norecompensa, OFERENTE;
+
+asset AntesCondicion = Service, +, ACREEDOR, antescondicion, OFERENTE;
+asset Antes = Service, -, ACREEDOR, antesprestado, OFERENTE;
+asset Revocacion = Service, +, OFERENTE, revocacion, ACREEDOR;
+asset Erogaciones = Service, +, ACREEDOR, erogaciones, OFERENTE;
+asset Reembolso = Service, +, OFERENTE, reembolso, ACREEDOR;
+
+asset Plazo = Service, +, OFERENTE, plazo, ACREEDOR;
+asset RevocacionPlazo = Service, +, OFERENTE, revocacionplazo, ACREEDOR;
+
+asset Primero = Service, +, ACREEDOR, primero, OFERENTE;
+asset Simultaneo = Service, +, ACREEDOR, simultaneo, OFERENTE;
+asset Proporcional = Service, +, OFERENTE, proporcional, ACREEDOR;
+asset Sorteo = Service, +, OFERENTE, sorteo, ACREEDOR;
+asset Divisible = Service, +, OFERENTE, divisible, ACREEDOR;
+asset NoDivisible = Service, -, OFERENTE, nodivisible, ACREEDOR;
+asset Concurso = Service, +, OFERENTE, concurso, ACREEDOR;
+
+asset DesignaJuezConcurso = Service, +, OFERENTE, designajuezconcurso, ACREEDOR;
+asset DecideQuien = Service, +, ACREEDOR, decidequien, OFERENTE;
+
+asset Beneficiario = Service, +, OFERENTE, beneficiario, ACREEDOR;
+asset PactoContrarioBeneficiario = Service, +, OFERENTE, pactocontrariobeneficiario, ACREEDOR;
+asset BeneficioTercero = Service, +, OFERENTE, beneficiotercero, ACREEDOR;
+
+asset NoManifiestaOferta = Service, -, ACREEDOR, nomanifiestaoferta, OFERENTE;
+asset RechazaOferta = Service, +, ACREEDOR, rechazaoferta, OFERENTE;
+
+asset OponerExcepciones = Service, +, OFERENTE, oponerexcepciones, ACREEDOR;
+

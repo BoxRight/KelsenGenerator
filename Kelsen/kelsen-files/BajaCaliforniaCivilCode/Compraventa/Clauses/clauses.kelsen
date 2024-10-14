@@ -1,0 +1,436 @@
+
+clause MMCXXIIa = {
+	TraslacionMueble AND PagoMueble,
+	CR(CompradorMueble)
+};
+
+clause MMCXXIIb = {
+	TraslacionInmueble AND PagoMueble,
+	CR(CompradorInmueble)
+};
+
+clause MMCXXIIc = {
+	TraslacionMueble AND PagoMueble,
+	CR(VendedorMueble)
+};
+
+clause MMCXXIId = {
+	TraslacionInmueble AND PagoMueble,
+	CR(VendedorInmueble)
+};
+
+clause MMCXXIIe = {
+	CompradorMueble AND VendedorMueble,
+	CR(CompraVenta)
+};
+
+clause MMCXXIIf = {
+	CompradorInmueble AND VendedorInmueble,
+	CR(CompraVenta)
+};
+
+clause MMCXXIIIa = {
+	AcordarCosa AND AcordarPrecio,
+	CR(TraslacionInmueble)
+};
+
+clause MMCXXIIIb = {
+	AcordarCosa AND AcordarPrecio,
+	CR(TraslacionMueble)
+};
+
+clause MMCXXIIIc = {
+	AcordarCosa AND AcordarPrecio,
+	CR(CompraVenta)
+};
+
+clause MMCXXIVa = {
+	ParcialEnCosas,
+	PR(CompraVenta)
+};
+
+clause MMCXXIVb = {
+	ParcialEnCosas,
+	PR(CompraVenta)
+};
+
+clause MCCXXVa = {
+	PrecioDeLugar,
+	PVG(CompraVenta)
+};
+
+clause MCCXXVb = {
+	PrecioDeTercero,
+	PVG(CompraVenta)
+};
+
+clause MCCXVI = {
+	PrecioDeTercero,
+	PVG(RechazoComun)
+};
+
+clause MCCXVIIa = {
+	TerceroNoSeñala,
+	PVG(ContratoNuloC)
+};
+
+clause MCCXVIIb = {
+	TerceroNoSeñala,
+	PVG(ContratoNuloV)
+};
+
+clause nulidad = {
+	ContratoNuloC AND NoActioProForma,
+	PR(CompraVenta)
+};
+
+clause nulidadb = {
+	ContratoNuloV AND NoActioProForma,
+	PR(CompraVenta)
+};
+
+clause MCCXVIII = {
+	PrecioArbitrioC,
+	CR(ContratoNuloV)
+};
+
+clause MCCXVIIIb = {
+	PrecioArbitrioV,
+	CR(ContratoNuloC)
+};
+
+clause MCCXVIVa = {
+	NoFijaPlazo AND NoPagoInmediato,
+	CR(ReditoLegal)
+};
+
+clause MCCXVIVb = {
+	NoPagoPlazo,
+	CR(ReditoLegal)
+};
+
+clause MMCXLIII = {
+    CompraVenta,
+    PR(CosaAjena)
+};
+
+clause MMCXLIIIb = {
+    CosaAjena AND Dolo,
+    CR(ContratoNuloC)
+};
+
+clause MMCXLIV = {
+    CosaAjena AND Dolo,
+    CR(Daños)
+};
+
+clause MMCXLV = {
+    CosaAjena,
+    PVG(Revalidado)
+};
+
+clause MMCXLVIa = {
+    CosaLitigiosa AND NoDeclaraLitigio,
+    CR(EviccionLitigio)
+};
+
+clause MMCXLVIb = {
+    CosaLitigiosa AND NoDeclaraLitigio,
+    CR(Daños)
+};
+
+clause MMCXLVII = {
+    BienesEspecificos AND NoRequisitosLegales,
+    CR(ContratoNuloC)
+};
+
+clause MMCXLVIII = {
+    CompraBienesRaices,
+    PR(NoRequisitosLegales)
+};
+
+clause MMCLI = {
+    VentaHerencia,
+    PVG(CompraJuicios)
+};
+
+clause MMCLII = {
+    PatriaPotestad,
+    PVG(VentaHerencia)
+};
+
+clause MMCLIII = {
+    VentaIndivisa AND NoRequisitosLegales,
+    CR(ContratoNuloC)
+};
+
+clause MMCLIV = {
+    AdministradorBienes,
+    CR(ContratoNuloC)
+};
+
+clause MMCLXVII = {
+    NoPagarPrecio AND NoPagarDondeEntrega,
+    PR(CompraVenta)
+};
+
+clause MMCLXIX = {
+    DepositoTercero,
+    PR(NoPagarPrecio)
+};
+
+clause MMCLXX = {
+    ConvenioIntereses,
+    OB(PagarIntereses)
+};
+
+clause MMCLXXb = {
+	ProduceFrutos,
+    OB(ReditoLegal)
+};
+
+clause MMCLXXIII = { 
+	CompraPlazoClaim AND PerturbacionPosesion, 
+	CR(SuspenderPago)
+};
+
+clause MMCLXXIIIb = { 
+	CompraPlazoClaim AND PerturbacionPosesion, 
+	CR(SuspenderPago)
+};
+
+clause MMCLXXIIIba = { 
+	CompraPlazoClaim AND PerturbacionPosesion, 
+	CR(AsegurarPosesion)
+};
+
+clause MMCLXXIIIc = {
+	CompraPlazoClaim,
+	CR(CompraVenta)
+};
+
+clause MMCLXXIIIca = {
+	CompraEsperaClaim,
+	CR(CompraVenta)
+};
+
+clause MMCLXXIIId = { 
+	CompraEsperaClaim AND JustoTemor, 
+	CR(AsegurarPosesion)
+};
+
+clause MMCXC = {
+	CompraVenta AND TraslacionInmueble,
+	CR(CompraBienesRaices)
+};
+
+clause MMCXCa = {
+	CompraBienesRaices,
+	CR(FormalizarContrato)
+};
+
+clause MMCXCI = {
+	FormalizarContrato,
+	CR(OtorgarDocumentoPrivado)
+};
+
+clause MMCXCIb = {
+    RegularizacionTenenciaClaim AND ValorMenorsietemUMA,
+    PVG(OtorgarSinTestigos)
+};
+
+clause MMCXCIII = {
+    OtorgarDocumentoPrivado,
+    OB(FormarDosOriginales)
+};
+
+clause MMCXCIV = {
+    CompraBienesRaices,
+    OB(HacerEscrituraPublica)
+};
+
+clause MMCXCVI = {
+    CompraBienesRaices,
+    OB(RegistrarVenta)
+};
+
+clause MMCLXXXVIII = {
+	ReservaDominio AND NoTranscurraPlazo,
+	PR(Rescision)
+};
+
+clause MCLXXXIX = {
+	ReservaDominio AND NoPaga,
+	CR(Arrendamiento)
+};
+
+clause MMCLXXXVII = {
+	NoReservaDominio AND NoTranscurraPlazo,
+	PVG(VenderOtro)
+};
+
+clause RESERVA = {
+	NoReservaDominio,
+	PR(ReservaDominio)
+};
+
+clause RESERVAb = {
+	ReservaDominio,
+	PR(NoReservaDominio)
+};
+
+clause MMCLVIIa = {
+	CompraVenta AND NoReservaDominio,
+	CR(Entrega)
+};
+
+clause MMCLVIIb = {
+	CompraVenta AND NoReservaDominio,
+	CR(Garantir)
+};
+
+clause MMCLVIIc = {
+	CompraVenta AND NoReservaDominio,
+	CR(PrestarEviccion)
+};
+
+clause MMCLVIIIa = {
+	EntregaReal,
+	CR(Entrega)
+};
+
+clause MMCLVIIIb = {
+	EntregaJuridica,
+	CR(Entrega)
+};
+
+clause MMCLVIIIc = {
+	EntregaVirtual AND Consentimiento,
+	CR(Entrega)
+};
+
+clause MMCLIXa = {
+	CompraVenta,
+	CR(GastosEntregaVendedor)
+};
+
+clause MMCLIXb = {
+	CompraVenta,
+	CR(GastosTransporteComprador)
+};
+
+
+
+clause MMCLX = {
+	CompraVenta AND NoPagarPrecio,
+	PR(Entrega)
+};
+
+clause MMCLXI = {
+	CompraVenta AND Entrega,
+	CR(EntregaEnEstadoOriginal)
+};
+
+clause MMCLXIb = {
+	CompraVenta AND TraslacionInmueble,
+	CR(EntregaLinderos)
+};
+
+
+clause MMCLXVIa = {
+	CompraVenta AND Mora,
+	CR(Alquiler)
+};
+
+clause MMCLXVIb = {
+	CompraVenta AND Mora,
+	CR(ConservarBien)
+};
+
+clause MMCLXXVa = {
+	CompraVenta,
+	PVG(ProhibirVentaTercero)	
+};
+
+clause MMCLXXVb = {
+	CompraVenta,
+	PR(ProhibirVentaGeneral)
+};
+
+clause MMCLXXVIa = {
+	CompraVenta,
+	PR(RetroVenta)
+};
+
+clause MMCLXXVIb = {
+	CompraVenta,
+	PR(PromesaVentaInmueble)
+};
+
+clause MMCLXXVIIa = {
+	CompraVenta,
+	CR(DerechoTantoMuebles)	
+};
+
+
+clause MMCLXXVIIb = {
+	CompraVenta,
+	CR(DerechoTantoInmuebles)	
+};
+
+clause MMCLXXIX = {
+	DerechoTantoMuebles,
+	PR(NoNotificar)
+};
+
+clause MMCLXXIXb = {
+	DerechoTantoInmuebles,
+	PR(NoNotificar)
+};
+
+
+clause MMCLXXX = {
+	DerechoTanto,
+	CR(Garantir)
+};
+
+clause MMCLXXXII = {
+	DerechoTanto,
+	PR(Heredar)
+};
+
+clause MMCLXXXIII = {
+	CompraVenta AND BienesFuturos,
+	CR(ContratoAleatorio)	
+};
+
+clause MMCLXXXIV = {
+	RescisionRegistrada AND NoTerceroBuenaFe,
+	PR(NoTerceros)
+};
+	
+clause MMCLXXXV = {
+	RescisionRegistrada AND NoTerceroBuenaFe,
+	CR(Restitucion)
+};
+
+clause MMCLXXXVb = {
+	RescisionRegistrada AND DeterioroAcreedor,
+	CR(PagoParcial)
+};
+
+clause MMCLXXXVc = {
+	RescisionRegistrada AND DeterioroAcreedor,
+	PR(MasOneroso)
+};
+
+clause RESCISION = {
+	RescisionRegistrada,
+	CR(Rescision)
+};
+
+
+
+	
+
+

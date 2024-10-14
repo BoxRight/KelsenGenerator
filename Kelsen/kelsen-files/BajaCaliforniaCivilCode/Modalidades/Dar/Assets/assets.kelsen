@@ -1,0 +1,36 @@
+asset DominioMueble = Property, M, DEUDOR, dominio, ACREEDOR;
+asset UsoGoceMueble = Property, M, DEUDOR, usogoce, ACREEDOR;
+asset PagoMueble = Property, M, ACREEDOR, pago, DEUDOR;
+
+asset DominioInmueble = Property, NM, DEUDOR, dominio, ACREEDOR;
+asset UsoGoceInmueble = Property, NM, DEUDOR, usogoce, ACREEDOR;
+asset PagoInmueble = Property, NM, DEUDOR, pago, ACREEDOR;
+
+asset CosaDistintaMueble = Property, M, ACREEDOR, cosadistinta, DEUDOR;
+asset CosaDistintaInmueble = Property, NM, ACREEDOR, cosadistinta, DEUDOR;
+
+asset Accesorios = Service, +, DEUDOR, accesorios, ACREEDOR;
+asset NoPactoContrarioAcc = Service, +, DEUDOR, nopactoencontrarioacc, ACREEDOR;
+asset PactoContrarioAcc = Service, +, DEUDOR, pactoencontrarioacc, ACREEDOR;
+
+asset TraslacionMueble = Property, M, ACREEDOR, traslacion, DEUDOR;
+asset TraslacionInmueble = Property, NM, ACREEDOR, traslacion, DEUDOR;
+
+asset EnajenacionIncierta = Property, M, ACREEDOR, enajenacionincierta, DEUDOR;
+asset DeterminaIncierta = Service, -, DEUDOR, nodeterminaincierta, ACREEDOR;
+
+asset MedianaCalidad = Service, +, DEUDOR, medianacalidad, ACREEDOR;
+
+asset DeterioroDeudor = Service, -, DEUDOR, deterioro, ACREEDOR;
+asset DeterioroAcreedor = Service, -, ACREEDOR, deterioro, DEUDOR;
+asset FuerzaMayor = Service, +, DEUDOR, fuerzamayor, ACREEDOR;
+asset Daños = Service, +, DEUDOR, daños, ACREEDOR;
+asset Reduccion = Service, +, DEUDOR, reduccion, ACREEDOR;
+
+asset EntregarAcciones = Property, NM, DEUDOR, entregaracciones, ACREEDOR;
+
+asset ExclusionComercio = Property, NM, DEUDOR, exclusioncomercio, ACREEDOR;
+asset NoRecobrar = Service, -, DEUDOR, norecobrar, ACREEDOR;
+
+asset AsumeDeudor = Service, +, DEUDOR, asume, ACREEDOR;
+asset AsumeAcreedor = Service, +, ACREEDOR, asume, DEUDOR;

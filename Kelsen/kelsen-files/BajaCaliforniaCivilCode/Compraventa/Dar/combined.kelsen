@@ -1,0 +1,238 @@
+string dominio = "debe la traslación de dominio de cosa cierta";
+string usogoce = "debe la enajenación temporal del uso o goce de cosa cierta";
+string pago = "debe la restitución de cosa ajena o pago de cosa debida";
+
+string cosadistinta = "no aceptar cosa distinta a la debida, inclusive si es de mayor valor";
+
+string accesorios = "debe entregar la cosa cierta y sus accesorios";
+string nopactoencontrarioacc = "no pacta no entregar los accesorios";
+string pactoencontrarioacc = "pacta no entregar los accesorios";
+
+string traslacion = "adquirir el dominio de cosa cierta frente";
+
+string enajenacionincierta = "debe la enajenación de cosa indeterminada";
+string nodeterminaincierta = "no determinar la cosa indeterminada";
+
+
+string medianacalidad = "entregar cosa de mediana calidad";
+
+string deterioro = "pierda o deteriore la cosa a entregar";
+string fuerzamayor = "pierda la cosa a entregar por fuerza mayor o un tercero";
+string daños = "el pago de daños y perjuicios";
+string reduccion = "entrega de la cosa deteriorada con descuento";
+
+string entregaracciones = "entregue acciones para demandar a culpable";
+
+
+string exclusioncomercio = "sufre exclusión del comercio de la cosa frente";
+
+string norecobrar = "no puede recobrar la cosa por esta desparecer";
+
+string asume = "asume su pérdida frente";
+
+
+subject DEUDOR = "Jesús Antonio Sesma","Belgrado 73", 6462, "jesus.sesma@hotmail.com";
+
+subject ACREEDOR = "Francisco Sesma Vazquez", "Sin nombre", 6462, "Sin correo";
+
+asset DominioMueble = Property, M, DEUDOR, dominio, ACREEDOR;
+asset UsoGoceMueble = Property, M, DEUDOR, usogoce, ACREEDOR;
+asset PagoMueble = Property, M, DEUDOR, pago, ACREEDOR;
+
+asset DominioInmueble = Property, NM, DEUDOR, dominio, ACREEDOR;
+asset UsoGoceInmueble = Property, NM, DEUDOR, usogoce, ACREEDOR;
+asset PagoInmueble = Property, NM, DEUDOR, pago, ACREEDOR;
+
+asset CosaDistintaMueble = Property, M, ACREEDOR, cosadistinta, DEUDOR;
+asset CosaDistintaInmueble = Property, NM, ACREEDOR, cosadistinta, DEUDOR;
+
+asset Accesorios = Service, +, DEUDOR, accesorios, ACREEDOR;
+asset NoPactoContrarioAcc = Service, +, DEUDOR, nopactoencontrarioacc, ACREEDOR;
+asset PactoContrarioAcc = Service, +, DEUDOR, pactoencontrarioacc, ACREEDOR;
+
+asset TraslacionMueble = Property, M, ACREEDOR, traslacion, DEUDOR;
+asset TraslacionInmueble = Property, NM, ACREEDOR, traslacion, DEUDOR;
+
+asset EnajenacionIncierta = Property, M, ACREEDOR, enajenacionincierta, DEUDOR;
+asset DeterminaIncierta = Service, -, DEUDOR, nodeterminaincierta, ACREEDOR;
+
+asset MedianaCalidad = Service, +, DEUDOR, medianacalidad, ACREEDOR;
+
+asset DeterioroDeudor = Service, -, DEUDOR, deterioro, ACREEDOR;
+asset DeterioroAcreedor = Service, -, ACREEDOR, deterioro, DEUDOR;
+asset FuerzaMayor = Service, +, DEUDOR, fuerzamayor, ACREEDOR;
+asset Daños = Service, +, DEUDOR, daños, ACREEDOR;
+asset Reduccion = Service, +, DEUDOR, reduccion, ACREEDOR;
+
+asset EntregarAcciones = Property, NM, DEUDOR, entregaracciones, ACREEDOR;
+
+asset ExclusionComercio = Property, NM, DEUDOR, exclusioncomercio, ACREEDOR;
+asset NoRecobrar = Service, -, DEUDOR, norecobrar, ACREEDOR;
+
+asset AsumeDeudor = Service, +, DEUDOR, asume, ACREEDOR;
+asset AsumeAcreedor = Service, +, ACREEDOR, asume, DEUDOR;
+
+clause MDCCCLXXXVIIa = {
+	DominioMueble,
+	PVG(CosaDistintaMueble)
+};
+
+clause MDCCCLXXXVIIaa = {
+	DominioMueble,
+	PVG(CosaDistintaInmueble)
+};
+
+clause MDCCCLXXXVIIab = {
+	DominioInmueble,
+	PVG(CosaDistintaInmueble)
+};
+
+clause MDCCCLXXXVIIac = {
+	DominioInmueble,
+	PVG(CosaDistintaMueble)
+};
+
+clause MDCCCLXXXVIIb = {
+	UsoGoceMueble,
+	PVG(CosaDistintaMueble)
+};
+
+clause MDCCCLXXXVIIba = {
+	UsoGoceMueble,
+	PVG(CosaDistintaInmueble)
+};
+
+clause MDCCCLXXXVIIbb = {
+	UsoGoceInmueble,
+	PVG(CosaDistintaInmueble)
+};
+
+clause MDCCCLXXXVIIbc = {
+	UsoGoceInmueble,
+	PVG(CosaDistintaMueble)
+};
+
+clause MDCCCLXXXVIIIa = {
+	DominioMueble AND NoPactoContrarioAcc,
+	CR(Accesorios)
+};
+
+clause MDCCCLXXXVIIIb = {
+	DominioInmueble AND NoPactoContrarioAcc,
+	CR(Accesorios)
+};
+
+clause MDCCCLXXXIXa = {
+	DominioMueble,
+	CR(TraslacionMueble)
+};
+
+clause MDCCCLXXXIXb = {
+	DominioInmueble,
+	CR(TraslacionInmueble)
+};
+
+clause MDCCCXCa = {
+	EnajenacionIncierta AND TraslacionMueble,
+	PR(DeterminaIncierta)
+};
+
+clause MDCCCXCb = {
+	EnajenacionIncierta AND TraslacionInmueble,
+	PR(DeterminaIncierta)
+};
+
+clause MDCCCXCI = {
+	EnajenacionIncierta,
+	PVG(MedianaCalidad)
+};
+
+clause MDCCCXCIIa = {
+	DominioMueble AND Accesorios,
+	PR(DeterioroDeudor)
+};
+
+clause MDCCCXCIIb = {
+	DominioInmueble AND Accesorios,
+	PR(DeterioroDeudor)
+};
+
+clause MDCCCXCIIc = {
+	DeterioroAcreedor,
+	PR(TraslacionMueble)
+};
+
+clause MDCCCXCIId = {
+	DeterioroAcreedor,
+	PR(TraslacionInmueble)
+};
+
+clause MDCCCXCIIe = {
+	FuerzaMayor,
+	PR(TraslacionInmueble)
+};
+
+clause MDCCCXCIIf = {
+	FuerzaMayor,
+	PR(TraslacionMueble)
+};
+
+clause MDCCCXCIIg = {
+	DeterioroDeudor,
+	CR(Daños)
+};
+
+clause MDCCCXCIIh = {
+	DeterioroDeudor,
+	CR(Reduccion)
+};
+
+clause MDCCCXCV = {
+	FuerzaMayor,
+	CR(EntregarAcciones)
+};
+
+clause MDCCCXCVIa = {
+	ExclusionComercio,
+	PR(TraslacionMueble)
+};
+
+clause MDCCCXCVIb = {
+	NoRecobrar,
+	PR(TraslacionMueble)
+};
+
+clause MDCCCXCVIc = {
+	ExclusionComercio,
+	PR(TraslacionInmueble)
+};
+
+clause MDCCCXCVId = {
+	NoRecobrar,
+	PR(TraslacionInmueble)
+};
+
+clause MDCCCXCIXa = {
+	DeterioroAcreedor AND UsoGoceMueble,
+	CR(AsumeAcreedor)
+};
+
+clause MDCCCXCIXb = {
+	DeterioroDeudor AND UsoGoceMueble,
+	CR(AsumeDeudor)
+};
+
+
+clause MDCCCXCIXc = {
+	DeterioroAcreedor AND UsoGoceInmueble,
+	CR(AsumeAcreedor)
+};
+
+clause MDCCCXCIXd = {
+	DeterioroDeudor AND UsoGoceInmueble,
+	CR(AsumeDeudor)
+};
+
+
+
+
